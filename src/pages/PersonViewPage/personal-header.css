@@ -1,0 +1,323 @@
+.person-main-wrapper {
+  @apply hidden md:block;
+}
+.personal-header {
+  @apply bg-gray-100 w-full flex flex-col items-center justify-center pt-0 md:pt-0 relative z-10;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: position 0.5s;
+  -ms-transition: position 0.5s;
+  -o-transition: position 0.5s;
+  transition: all 0.5s ease-in-out;
+}
+.person-detail-page,
+.person-detail-page.person-detail-top {
+  @apply mt-0 md:mt-14;
+}
+
+
+.person-detail-page.person-detail-top.person-hero-image {
+  @apply mt-0 md:mt-14;
+}
+#person-page .person-main-content {
+  @apply overflow-auto w-fit-content;
+}
+
+.personal-header .pr-container {
+  @apply max-w-190 w-full;
+}
+.personal-header .hero-placeholder {
+  @apply bg-gray-300 rounded-bl-2xl rounded-br-2xl max-w-190 relative flex-col overflow-hidden hidden md:flex transition-all ease-in duration-75 cursor-pointer;
+}
+.personal-header .hero-placeholder figure {
+  @apply w-full h-full min-h-28;
+}
+.personal-header .hero-placeholder .up-hero-image figure {
+  @apply h-75 overflow-hidden;
+}
+
+.personal-header .up-hero-image div {
+  @apply w-full h-full !important;
+}
+
+.personal-header .up-hero-image img {
+  @apply max-w-none w-full rounded-bl-2xl rounded-br-2xl;
+}
+
+.personal-header .hero-placeholder .file-drop > .file-drop-target {
+  @apply bg-transparent border-transparent hover:bg-transparent hover:border-transparent hover:text-gray-700;
+}
+
+.hero-image-button {
+  @apply w-8 h-8 rounded-lg bg-gray-200 text-gray-700 flex justify-center items-center p-1  hover:bg-gray-200 focus:outline-blue;
+}
+.personal-header .hero-button {
+  @apply absolute right-4 bottom-4 z-10 transform transition ease-in duration-75 hover:scale-95;
+}
+.personal-header .up-hero-image .hero-button {
+  @apply hidden;
+}
+.profile-card-wrapper {
+  @apply flex justify-center w-full relative md:h-20 mb-6 transition ease-in duration-75 z-10;
+}
+.profile-card-wrapper-inner {
+  @apply flex justify-center max-w-full md:absolute left-auto right-auto bottom-0;
+}
+
+.profile-card-wrapper .profile-card {
+  @apply rounded-2xl p-1 md:bg-white inline-flex flex-col md:flex-row items-center md:shadow-st-2 md:h-40 md:min-w-132.5 max-w-full md:max-w-157.5;
+}
+.profile-img {
+  @apply rounded-2xl md:rounded-tr-none md:rounded-br-none bg-gray-200 text-gray-400 md:min-w-38 w-20 md:w-38 h-20 md:h-38 min-h-20 flex overflow-hidden cursor-pointer hover:bg-blue-200 hover:text-blue-500 mb-2 md:mb-0;
+}
+.profile-img .add-photo {
+  @apply flex flex-col justify-center items-center text-base h-full w-full;
+}
+.profile-img .addPhoto-txt {
+  @apply hidden md:block;
+}
+.profile-img.in .add-photo {
+  @apply hidden;
+}
+.profile-img.in > img,
+.profile-img img,
+.profile-img .add-photo img {
+  @apply object-cover object-center md:min-w-38 w-20 md:w-38 h-20 md:h-38 min-h-20 rounded-none !important;
+}
+.profile-img .add-photo .icon {
+  @apply flex justify-center items-center w-8;
+}
+.profile-img .add-photo .icon svg {
+  @apply w-full;
+}
+.profile-img .add-photo .upload-img {
+  @apply h-full;
+}
+.profile-img .add-photo .upload-img .file-drop > .file-drop-target {
+  @apply bg-transparent rounded-none border-0;
+}
+
+.profile-img
+  .add-photo
+  .upload-img
+  .file-drop
+  > .file-drop-target
+  .add-photo-uploader {
+  @apply flex-col;
+}
+.profile-card .profile-details {
+  @apply flex-grow pr-6 pl-6 w-full;
+}
+.profile-details h1 {
+  @apply text-black mb-1 text-2xl line-clamp-2  font-bold min-h-8 text-center md:text-left;
+}
+.profile-details h1 span {
+  @apply text-black text-2xl line-clamp-2 md:max-w-105.5;
+}
+.profile-details .dob-detail,
+.profile-details .dod-detail,
+.profile-details .rel-detail {
+  @apply text-black mb-0 truncate text-sm max-w-105.5 overflow-hidden min-h-5;
+}
+.profile-details .dob-detail span,
+.profile-details .dod-detail span,
+.profile-details .rel-detail span {
+  @apply text-sm;
+}
+.profile-details .dob-detail .ttl,
+.profile-details .dod-detail .ttl,
+.profile-details .rel-detail .ttl {
+  @apply mr-2 inline-flex;
+}
+.profile-details .xs-dob-detail {
+  @apply text-black mb-0 truncate text-sm md:max-w-105.5 overflow-hidden text-center;
+}
+.profile-menu {
+  @apply flex justify-center md:justify-between mb-4 items-center px-2 sml:px-0;
+}
+.profile-menu .left-nav {
+  @apply flex items-center;
+}
+.profile-menu .left-nav .btn-medium {
+  @apply px-2 lg:px-4 !important;
+}
+.profile-menu .left-nav > div + div {
+  @apply ml-2;
+}
+.right-nav {
+  @apply flex lg:w-58 justify-end;
+}
+.right-nav .icon-menu,
+.mtop-header .icon-menu {
+  @apply flex transform transition ease-in duration-75;
+}
+.right-nav .icon-menu + .icon-menu {
+  @apply ml-2 text-gray-700;
+}
+.right-nav .icon-menu .icon,
+.mtop-header .icon-menu .icon {
+  @apply bg-gray-200 hover:bg-gray-300 w-8 h-8;
+}
+
+.profile-menu .profile-card-wrapper {
+  @apply justify-center w-full relative h-auto mb-0 max-w-58 hidden;
+}
+.profile-menu .profile-card-wrapper-inner {
+  @apply inline-flex justify-start static left-auto right-auto bottom-0 w-full;
+}
+.profile-menu .profile-card {
+  @apply rounded-none p-0 md:bg-transparent inline-flex flex-row md:flex-row items-center  shadow-none h-auto min-w-0 max-w-58;
+}
+.profile-menu .profile-card .profile-details {
+  @apply pl-2 lg:pl-4 pr-0 max-w-full;
+}
+.profile-menu .profile-card .profile-details h1 {
+  @apply text-lg font-normal max-w-26 lg:max-w-42 truncate overflow-hidden mb-0 block;
+}
+.profile-menu .profile-card .profile-details h1 span {
+  @apply text-lg truncate block max-w-full;
+}
+.profile-menu .profile-card .profile-details .xs-dob-detail,
+.profile-menu .profile-card .profile-details .dob-detail,
+.profile-menu .profile-card .profile-details .dod-detail {
+  @apply hidden;
+}
+.profile-menu .profile-img {
+  @apply rounded-lg p-0  inline-flex flex-row md:flex-row items-center shadow-none h-10 w-10 min-w-10 min-h-10;
+}
+.profile-menu .profile-img .addPhoto-txt {
+  @apply hidden;
+}
+.profile-menu .profile-img .add-photo .icon {
+  @apply w-5;
+}
+
+/* mobile top header */
+.mtop-header {
+  @apply flex items-center justify-between shadow-st-3 w-full px-4 h-16 md:hidden mb-4;
+}
+.mtop-header .userinfo-placeholder {
+  @apply w-4/5 px-4 mx-auto text-center;
+}
+.mtop-header .userinfo-placeholder h2 {
+  @apply text-base font-medium mb-0 truncate;
+}
+.mtop-header .userinfo-placeholder .xs-dob-detail {
+  @apply text-xs font-normal mb-0 truncate;
+}
+/* Sticky header after Scroll */
+.personal-header.sticky {
+  @apply fixed top-0 md:top-14 left-0 z-20;
+  animation: smoothScroll 0.5s forwards;
+}
+.personal-header.unsticky {
+  animation: unsmoothScroll 0.5s forwards;
+}
+
+@keyframes smoothScroll {
+  0% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes unsmoothScroll {
+  0% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.personal-header.sticky .pr-container {
+  @apply max-w-none px-4  md:px-12;
+}
+.personal-header.sticky .pr-container .hero-placeholder {
+  @apply opacity-0 h-0 overflow-hidden;
+}
+.personal-header.sticky .pr-container .profile-card-wrapper {
+  @apply opacity-0 h-0 overflow-hidden mb-0;
+}
+.personal-header.sticky .pr-container .profile-menu {
+  @apply pt-3 pb-3 mb-0 items-center;
+}
+.personal-header.sticky .profile-menu .left-nav {
+  @apply flex items-center md:ml-auto md:mr-0 xl:mx-auto;
+}
+.personal-header.sticky .profile-menu .left-nav > div {
+  @apply mx-1;
+}
+.personal-header.sticky .profile-menu .left-nav > div + div {
+  @apply ml-1;
+}
+.personal-header.sticky .pr-container .profile-menu .profile-card-wrapper {
+  @apply opacity-100 h-auto overflow-visible md:flex md:w-2/5 xl:w-1/3 md:max-w-none;
+}
+.personal-header.sticky
+  .pr-container
+  .profile-menu
+  .profile-card-wrapper
+  .profile-card-wrapper-inner {
+  @apply md:flex;
+}
+
+.personal-header.sticky .pr-container .profile-menu .right-nav {
+  @apply w-auto xl:w-1/3 max-w-none flex;
+}
+.personal-header.sticky .profile-menu .right-nav .icon-menu {
+  @apply hidden xl:flex;
+}
+.personal-header.sticky .profile-menu .right-nav .icon-menu:last-child {
+  @apply flex;
+}
+.personal-header.sticky .profile-menu .profile-card .profile-details {
+  width: calc(100% - 48px);
+}
+.personal-header.sticky .profile-menu .profile-card .profile-details h1 {
+  @apply max-w-none;
+}
+.personal-header.sticky .profile-menu .profile-card {
+  @apply flex w-full max-w-none;
+}
+.personal-header.sticky .mtop-header {
+  @apply mb-0;
+}
+.personal-header.sticky .mtop-header .right-nav .icon-menu {
+  @apply hidden;
+}
+.personal-header.sticky .mtop-header .right-nav .icon-menu:last-child {
+  @apply flex;
+}
+
+.personal-header.sticky .profile-img.in > img,
+.personal-header.sticky .profile-img img,
+.personal-header.sticky .profile-img .add-photo img {
+  @apply md:min-w-10 w-10 md:w-10 h-10 md:h-10 min-h-10 rounded-none !important;
+}
+#person-page{
+  @apply max-w-full overflow-auto
+  }
+
+.more-menu ul li:last-of-type {
+ @apply text-maroon-500
+}
+
+.icon-menu.more-menu .MuiPaper-root .MuiList-root li:first-child,
+.icon-menu.more-menu .MuiPaper-root .MuiList-root li:nth-child(2)
+{
+@apply hidden ;
+}
+.personal-header.sticky .icon-menu.more-menu .MuiPaper-root .MuiList-root li:first-child,
+.personal-header.sticky .icon-menu.more-menu .MuiPaper-root .MuiList-root li:nth-child(2){
+@apply flex xl:hidden;
+}
+.person-detail-page.sticky-top-184 #person-page{
+  @apply mt-61.5 flex flex-col;
+}
+.person-detail-page.sticky-top-386 #person-page{
+  @apply mt-112.5 flex flex-col;
+}
+.person-detail-page.sticky-top-235 #person-page{
+  @apply mt-89 flex flex-col;
+}

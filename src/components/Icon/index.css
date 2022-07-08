@@ -1,0 +1,30 @@
+/* Common */
+.icon {
+  @apply cursor-pointer inline-flex items-center;
+}
+
+/* Icon Size */
+.icon-small svg {
+  @apply w-4;
+}
+
+.icon-medium svg {
+  @apply w-5;
+}
+
+.icon-large svg {
+  @apply w-6;
+}
+.icon-xlarge svg {
+  @apply w-8;
+}
+
+/* Icon Background */
+.icon-bgColor {
+  @apply p-2 cursor-pointer rounded-lg bg-gray-100 hover:bg-gray-200;
+}
+
+/* Icon Disable */
+.icon-disable {
+  @apply opacity-30 cursor-default;
+}

@@ -1,0 +1,132 @@
+.wa-focused-card {
+  @apply max-w-md p-2 bg-gray-700 rounded-md overflow-hidden shadow-focus-card hover:shadow-inner inline-block cursor-pointer;
+}
+.living {
+  max-height: -webkit-fill-available;
+  max-width: -webkit-fill-available;
+}
+.deceased {
+  max-height: -webkit-fill-available;
+  max-width: -webkit-fill-available;
+}
+.wa-focused-card-menu {
+  @apply -ml-2 -mt-2 max-w-md p-2 bg-gray-700 rounded-md overflow-hidden inline-block cursor-pointer shadow-focus-card;
+}
+
+.wa-card-medium {
+  @apply bg-white h-12 max-h-fitcontent ml-0.5 mr-0.5 rounded-md overflow-hidden flex items-center shadow-card hover:shadow-inner cursor-pointer;
+}
+.wa-card-medium-menu {
+  @apply bg-white h-12 max-h-fitcontent ml-0.5 mr-0.5 rounded-md overflow-hidden flex items-center shadow-card;
+}
+
+.wa-card-small {
+  @apply bg-white max-h-fitcontent rounded-md ml-0.5 mr-0.5 overflow-hidden flex items-center shadow-card hover:shadow-inner cursor-pointer;
+}
+
+.wa-card-small-menu {
+  @apply bg-white max-h-fitcontent rounded-md ml-0.5 mr-0.5 overflow-hidden flex items-center shadow-card;
+}
+
+.wa-card-nextGen {
+  @apply bg-gray-200 max-h-fitcontent rounded-md overflow-hidden items-center border-dashed border-2 border-gray-400 text-gray-500 hover:bg-white hover:border-gray-600 text-gray-600 cursor-pointer;
+}
+
+.wa-card-nextGen-tooltip {
+  @apply border-dashed border-2 border-skyblue-500 cursor-pointer bg-gray-200 rounded-md;
+}
+
+.wa-medium-card {
+  @apply p-0;
+}
+
+.wa-small-card {
+  @apply p-0;
+}
+
+.focused-card {
+  min-width: 216px;
+  min-height: 64px;
+}
+
+.card-option {
+  animation: fadeInAnimation ease 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  @apply w-52 flex mt-2 bg-white rounded-md shadow-card items-center py-2 px-3 cursor-pointer hover:shadow-inner;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.card-option-title {
+  @apply ml-4 whitespace-nowrap overflow-hidden overflow-ellipsis;
+}
+
+/* Card Tooltip */
+.maskClassName {
+  background: #fff;
+  opacity: 0;
+}
+
+.highlightedMaskClassName {
+  background: #fff;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 16px solid transparent;
+  border-right: 16px solid transparent;
+  border-top: 16px solid #fff;
+  position: absolute;
+  left: 144px;
+  bottom: -15px;
+}
+
+.reactour__helper {
+  @apply absolute !important w-80 !important -top-36 !important -left-32 md:left-48 lg:left-64 2xl:-left-64 p-4;
+}
+
+.focus-node-width {
+  width: max-content;
+}
+
+.card-menu {
+  border: none !important;
+  box-shadow: none !important;
+  box-sizing: unset !important;
+  padding: 0 !important;
+  background: transparent !important;
+}
+
+#simple-popover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* File Selector */
+#getFile {
+  display: none;
+}
+
+#getFileLabel {
+  display: block;
+  background-image: url("./defaultImage.png");
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+}
+
+.card-content-img {
+  min-width: 48px;
+}
+
+.cardImage {
+  @apply max-w-none;
+}

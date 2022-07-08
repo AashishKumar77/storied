@@ -1,0 +1,6 @@
+.custome-input .MuiOutlinedInput-notchedOutline{
+ border-color: #D7D8D9;
+}
+.custome-input .Mui-focused .MuiOutlinedInput-notchedOutline{
+    border-color: #295DA1 !important;
+}

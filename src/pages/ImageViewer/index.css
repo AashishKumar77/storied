@@ -1,0 +1,106 @@
+.image-bg {
+  @apply bg-black;
+}
+.m-flow {
+  height: auto;
+  overflow-y: auto;
+}
+*:focus {
+  outline: none;
+  box-shadow: none;
+}
+/* drop down css */
+.story-dropdown {
+  @apply absolute right-6 bg-white rounded-lg py-2.5;
+  box-shadow: 0px 4px 24px -4px rgba(0, 0, 0, 0.15);
+}
+.story-dropdown button,
+.story-dropdown a {
+  @apply whitespace-nowrap px-4 py-2 w-full text-left block;
+  width: 115px;
+}
+.story-dropdown button span {
+  @apply block;
+}
+.story-dropdown a:hover,
+.story-dropdown button:hover {
+  @apply bg-gray-100;
+}
+.ellipsis-button:focus {
+  background: #efeff0;
+}
+.open-sidebar {
+  transition: all 0.1s ease 0s;
+  -webkit-transition: all 0.1s ease 0s;
+}
+/* dropdown-panel */
+.person-dropdown {
+  @apply px-2.5 pt-3 rounded-lg;
+  padding-bottom: 1px;
+  min-width: 340px;
+  margin-left: 2rem;
+}
+
+.person-dropdown .media-wrap {
+  min-height: 40px;
+}
+.person-dropdown .media-wrap.min-66 {
+  min-height: 66px;
+}
+.person-dropdown .media-wrap .media-text span {
+  display: block;
+}
+.person-dropdown .actions .btn {
+  @apply py-3 bg-gray-200 hover:bg-gray-300 bg-gray-200 hover:bg-gray-300 cursor-pointer;
+}
+
+#tw-person-dropdown .MuiPopover-paper {
+  padding: 6px 0 5px;
+  overflow: visible;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+#tw-person-dropdown .MuiPopover-paper .person-dropdown {
+  @apply bg-white;
+  box-shadow: 0px 6px 36px -6px rgba(0, 0, 0, 0.15);
+}
+.p-2 {
+  padding: 0.5rem !important;
+}
+.p-0 {
+  padding: 0 !important;
+}
+.border-0 {
+  border-width: 0px !important;
+}
+.d-grid{
+  display: grid !important;
+}
+
+.transform-component-module_wrapper__1_Fgj,
+.transform-component-module_content__2jYgh {
+  width: auto !important;
+}
+.right-1\/4 {
+  right: 25% !important;
+}
+.break-word {
+  word-break: break-word
+}
+.right-sidepanel {
+  z-index: 1000;
+  box-shadow: 0px 2px 8px rgb(0 0 0 / 15%);
+  }
+/* media queries */
+@media (max-width: 767px) {
+  .image-bg {
+    @apply flex items-center justify-center;
+  }
+  .person-dropdown {
+    margin-left: 0;
+  }
+  .d-hidden {
+    display: none !important;
+  }
+}

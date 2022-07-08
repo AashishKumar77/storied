@@ -1,0 +1,101 @@
+.header {
+  @apply fixed top-0 left-0 w-full z-2000;
+}
+
+.main-wrapper {
+  @apply px-3 md:px-6 relative;
+}
+.header .main-wrapper {
+  @apply px-3
+}
+.header .header-section {
+  @apply flex md:items-center md:py-2 md:flex-row;
+  min-height: min-content;
+}
+.main-nav {
+  @apply block md:flex space-x-4 md:mr-auto ml-6;
+}
+.main-nav a {
+  @apply mx-0 !important md:mx-1 my-4 md:my-0 text-sm leading-3 font-medium text-gray-500 px-3 py-1 rounded-md min-h-8 flex items-center relative
+  hover:text-gray-600 hover:bg-gray-200;
+  font-family: "Atlas Grotesk Web Medium", sans-serif !important;
+}
+a:focus,
+button:focus
+ {
+  outline-color: #295DA1;
+}
+.main-nav a.active {
+  @apply bg-transparent hover:bg-transparent text-gray-700 !important;
+}
+.main-nav a.active::after,
+.nav-link.notifications-link.active:after {
+  content: " ";
+  @apply h-1 w-full absolute -bottom-3 left-0 bg-red;
+}
+.avatar-dropdown {
+  @apply cursor-pointer hidden md:block border-2 border-white rounded-full p-0.5;
+}
+.avatar-dropdown:hover {
+  @apply border-2 border-gray-200 rounded-full p-0.5;
+}
+.avatar-dropdown:focus {
+  @apply border-2 border-skyblue-200 rounded-full p-0.5;
+}
+.avatar-dropdown div:nth-child(2) {
+  top: 34px !important;
+  right: 0;
+  transform: initial !important;
+  left: initial !important;
+}
+.hamburger-menu {
+  @apply absolute right-2 cursor-pointer z-1000 block md:hidden;
+}
+.main-nav-mobile {
+  @apply hidden;
+}
+.my-account {
+  @apply block md:hidden ml-0 !important;
+}
+
+.nav-link.notifications-link {
+@apply bg-gray-200 w-8 h-8 flex items-center justify-center absolute md:relative mr-4 rounded-full right-12 md:right-auto md:top-auto z-10;
+}
+
+.nav-link.notifications-link.active svg path {
+stroke: #FC4040 !important;
+}
+
+.nav-link.notifications-link .ntf-count {
+  min-width: 16px;
+  left:24px;
+  padding:0 3px;
+}
+
+@media screen and (max-width: 767px) {
+  .header .header-section {
+  @apply flex  items-start py-3 flex-col;
+  min-height: min-content
+  }
+  .main-nav {
+    @apply hidden;
+  }
+  .main-nav-mobile {
+    @apply flex space-x-4 flex-col w-full mt-6 z-1000;
+  }
+  .main-nav-mobile a {
+    @apply ml-0 !important px-3 py-2 block;
+  }
+  .main-nav-mobile .people-dd {
+    margin-left: 0 !important;
+  }
+  .nav-link.notifications-link.active {
+    @apply bg-gray-200
+  }
+  .nav-link.notifications-link.active:after {
+    display: none;
+  }
+  .nav-link.notifications-link {
+    top: 9px;
+  }
+}

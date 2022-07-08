@@ -1,0 +1,63 @@
+.crop-section {
+  border: none;
+}
+
+.crop-section .reactEasyCrop_Container {
+  cursor: grab;
+}
+
+.crop-container {
+  height: 315px;
+  opacity: 0.8;
+  position: relative;
+}
+
+.image-crop {
+  cursor: grab !important;
+}
+
+.controls {
+  width: 281px;
+  display: flex;
+  align-items: center;
+  color: #295da1;
+  margin: 0 auto;
+  padding-top: 14px;
+}
+
+.slider {
+  padding: 22px 0px;
+}
+
+.left-portrait {
+  left: 23.17%;
+}
+
+.left-landscape {
+  width: 90%;
+  left: 5%;
+}
+
+.modal-title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  right: 24px;
+  top: 24px;
+}
+.profile-wrapper {
+  @apply max-w-102.5;
+}
+.hero-wrapper {
+  @apply max-w-207.5;
+}
+.profile-control {
+  @apply flex-col mx-0 w-full;
+}
+.profile-control .zoom-control {
+  @apply flex w-70 mx-auto items-center;
+}

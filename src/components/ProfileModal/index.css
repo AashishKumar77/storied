@@ -1,0 +1,10 @@
+.edit-profile-sec {
+    @apply w-16 md:w-28 rounded-2xl m-auto mb-5;
+}
+
+.edit-profile-sec .add-photo-uploader {
+    @apply flex-col;
+}
+.edit-profile-sec .addPhoto-txt {
+    @apply ml-0;
+}

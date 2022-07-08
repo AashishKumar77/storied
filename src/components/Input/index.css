@@ -1,0 +1,30 @@
+/* Common */
+.input-text {
+    @apply h-10 border border-gray-300 focus:ring-2 focus:ring-blue-400 outline-none rounded-lg px-4 py-2 
+    placeholder-gray-400 !important;
+}
+
+.input-text:focus {
+    @apply ring-blue-400;
+}
+
+.input-error {
+    @apply border-2 border-maroon-400 !important
+}
+
+.input-disabled {
+    @apply bg-gray-200 cursor-default;
+}
+
+.error-message {
+    @apply text-maroon-400;
+}
+
+/* Size */
+input {
+    @apply text-sm w-full;
+}
+
+.cursor-check {
+    caret-color: transparent;
+}

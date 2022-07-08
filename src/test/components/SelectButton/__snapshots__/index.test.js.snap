@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectButton Component selectButton component renders properly 1`] = `ShallowWrapper {}`;

@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given ImagePopper component should test ImagePopper component with list of props 1`] = `ShallowWrapper {}`;

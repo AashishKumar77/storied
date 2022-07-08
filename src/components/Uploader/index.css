@@ -1,0 +1,60 @@
+.file-drop {
+  /* relatively position the container bc the contents are absolute */
+  @apply relative w-full h-full cursor-pointer;
+}
+
+.file-drop > .file-drop-target {
+  @apply absolute top-0 left-0 w-full h-full bg-white border border-dashed border-gray-300 rounded-xl flex flex-col justify-center content-center text-center text-base font-medium text-gray-500 hover:bg-blue-200 hover:border-blue-400 hover:text-blue-500;
+}
+
+.drop-complete > .file-drop-target {
+  @apply absolute top-0 left-0 w-full h-full border border-solid rounded-xl flex flex-col justify-center content-center text-center text-base font-medium bg-blue-200 border-blue-400 text-blue-500;
+}
+.drop-complete > .file-drop-target .icon-small svg path {
+  stroke: #295da1 !important;
+}
+
+.drop-complete {
+  /* relatively position the container bc the contents are absolute */
+  @apply relative w-full h-full;
+}
+
+.file-drop > .file-drop-target.file-drop-dragging-over-frame {
+  @apply absolute top-0 left-0 w-full h-full bg-white border border-dashed rounded-xl flex flex-col justify-center content-center text-center text-base font-medium bg-blue-200 border-blue-400 text-blue-500;
+}
+.icon-cross {
+  @apply w-3 h-3 flex top-2 absolute right-2 leading-none justify-center items-center;
+}
+.icon-cross .icon-small {
+  @apply m-auto;
+}
+.icon-cross .icon-small svg {
+  @apply h-2.5 w-2.5;
+}
+.icon-cross .icon-small svg path {
+  stroke: #295da1 !important;
+}
+
+.file-drop-target .MuiLinearProgress-root {
+  @apply rounded-full;
+  background-color: #94aed0;
+}
+.file-drop-target .MuiLinearProgress-bar {
+  @apply rounded-full;
+  background-color: #204a82;
+}
+.file-uploading > .file-drop-target {
+  @apply absolute top-0 left-0 w-full h-full border border-solid rounded-xl flex flex-col justify-center content-center text-center text-base font-medium bg-blue-200 border-blue-400 text-blue-500;
+}
+.file-uploading .file-drop-target .icon-small svg path {
+  stroke: #295da1 !important;
+}
+.file-uploading .file-drop-target .icon-small svg path:nth-child(2) {
+  fill: #295da1 !important;
+}
+.drop-complete .file-drop-target .my-auto .icon-small svg,
+.file-drop .file-drop-target .my-auto .icon-small svg,
+.file-uploading .file-drop-target .my-auto .icon-small svg {
+  @apply h-6;
+  width: 1.125rem;
+}

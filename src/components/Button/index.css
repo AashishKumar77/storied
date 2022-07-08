@@ -1,0 +1,77 @@
+/* Common */
+.btn {
+  @apply font-normal py-1.5 px-4 rounded-lg border border-transparent focus:outline-blue  flex items-center;
+}
+
+/* Button Type */
+.btn-default {
+  @apply bg-gray-100 text-gray-700 hover:bg-gray-200;
+}
+
+.btn-primary {
+  @apply bg-blue-400 text-white hover:bg-blue-500;
+}
+
+.btn-secondary {
+  @apply bg-gray-700 text-white hover:bg-black;
+}
+
+.btn-red {
+  @apply bg-redShades-400 border-transparent text-white hover:bg-redShades-500;
+}
+.btn-red-dark {
+  @apply bg-redShades-600 border-transparent text-white hover:bg-redShades-700;
+}
+
+.btn-danger {
+  @apply bg-maroon-500 text-white hover:bg-maroon-600;
+}
+.btn-skyblue {
+  @apply bg-skyblue-600 border-skyblue-600 text-white hover:bg-skyblue-700 hover:border-skyblue-700;
+}
+.btn-white {
+  @apply bg-white border-white text-redShades-700 hover:bg-gray-200 hover:border-gray-200 hover:text-redShades-700;
+}
+.link-white {
+  @apply px-3 bg-transparent border-transparent text-white hover:bg-transparent hover:border-transparent hover:text-gray-200;
+}
+.link-white .icon-large {
+  @apply mt-auto mb-auto;
+}
+.link-white .icon-large svg {
+  @apply w-4;
+}
+.link-white .swapper {
+  @apply flex-row-reverse;
+}
+.link-white .ml-swapper {
+  @apply ml-0 mr-2;
+}
+.btn-maroon {
+  @apply bg-maroon-400;
+}
+
+.btn-stepper {
+  @apply bg-gray-100 border border-gray-300 py-1.5 px-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 flex items-center text-gray-400 hover:bg-blue-200 justify-center hover:text-blue-400 h-20 !important w-80;
+}
+
+/* Button Size */
+.btn-small {
+  @apply text-xs h-6;
+}
+
+.btn-medium {
+  @apply text-sm h-8;
+}
+
+.btn-large {
+  @apply text-base h-10;
+}
+.btn-xlarge {
+  @apply text-2xl h-16 md:h-21.5 px-6;
+}
+
+/* Button Disable */
+.btn-disable {
+  @apply opacity-30 cursor-default;
+}

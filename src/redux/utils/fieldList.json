@@ -1,0 +1,130 @@
+[
+  {
+    "label": "Spouse's Name",
+    "data": [{ "key": "spouseFull_name_display_value", "type": "text" }]
+  },
+  {
+    "label": "Birth Date",
+    "data": [{ "key": "birthSelfDate_value", "type": "Date" }]
+  },
+  {
+    "label": "Death Date",
+    "data": [{ "key": "deathSelfDate_value", "type": "Date" }]
+  },
+  {
+    "label": "Marriage Date",
+    "data": [{ "key": "marriageSelfDate_value", "type": "Date" }]
+  },
+  {
+    "label": "Death Place",
+    "data": [
+      { "key": "deathSelfPlace", "type": "GUID" },
+      { "key": "deathSelfPlace_raw", "type": "text" }
+    ]
+  },
+  {
+    "label": "Arrival Date",
+    "data": [{ "key": "immigration_arrivalSelfDate_value", "type": "Date" }]
+  },
+  {
+    "label": "Arrival Place",
+    "data": [
+      { "key": "immigration_arrivalSelfPlace", "type": "GUID" },
+      { "key": "immigration_arrivalSelfPlace_raw", "type": "text" }
+    ]
+  },
+  {
+    "label": "Death Year",
+    "data": [{ "key": "deathSelfYear_display_value", "type": "text" }]
+  },
+  {
+    "label": "Residence",
+    "data": [
+      { "key": "residenceSelfPlace", "type": "GUID" },
+      { "key": "residenceSelfPlace_raw", "type": "text" }
+    ]
+  },
+  {
+    "label": "Military Rank",
+    "data": [{ "key": "militarySelfRank_value", "type": "text" }]
+  },
+  {
+    "label": "Cause Of Death",
+    "data": [{ "key": "deathSelfCause_of_death_value", "type": "text" }]
+  },
+
+  {
+    "label": "Birthplace",
+    "data": [
+      { "key": "birthSelfPlace", "type": "GUID" },
+      { "key": "birthSelfPlace_raw", "type": "text" }
+    ]
+  },
+  {
+    "label": "Birth Year",
+    "data": [{ "key": "birthSelfYear_value", "type": "text" }]
+  },
+  {
+    "label": "Residence Date",
+    "data": [{ "key": "residenceSelfDate_value", "type": "Date" }]
+  },
+  {
+    "label": "Gender",
+    "data": [{ "key": "selfGender_value", "type": "text" }]
+  },
+  {
+    "label": "Race/Nationality",
+    "data": [{ "key": "selfRace_value", "type": "text" }]
+  },
+  {
+    "label": "Marital Status",
+    "data": [{ "key": "marriageSelfStatus_value", "type": "text" }]
+  },
+  {
+    "label": "Relation to Head of House",
+    "data": [{ "key": "selfRelationship_value", "type": "text" }]
+  },
+
+  {
+    "label": "Enlistment Date",
+    "data": [{ "key": "military_enlistmentSelfDate_value", "type": "Date" }]
+  },
+  {
+    "label": "Place of Enlistment",
+    "data": [{ "key": "military_enlistmentSelfPlace_raw", "type": "text" }]
+  },
+  {
+    "label": "Place of Departure",
+    "data": [{ "key": "immigration_departureSelfPlace_raw", "type": "text" }]
+  },
+  {
+    "label": "Level of Education",
+    "data": [{ "key": "educationSelfLevel_completed_value", "type": "text" }]
+  },
+  {
+    "label": "Marriage Year",
+    "data": [
+      { "key": "marriageSelfYear_value", "type": "text" },
+      { "key": "marriageSelfYear_display_value", "type": "text" }
+    ]
+  },
+  {
+    "label": "Marriage Place",
+    "data": [
+      { "key": "marriageSelfPlace", "type": "GUID" },
+      { "key": "marriageSelfPlace_raw", "type": "text" }
+    ]
+  },
+  {
+    "label": "Number of Free White Males Over 16",
+    "data": [{ "key": "residenceSelfFree_white_males_over_16_raw", "type": "text" }]
+  },
+  {
+    "label": "Number of Free White Males Under 16",
+    "data": [{ "key": "residenceSelfFree_white_males_under_16_raw", "type": "text" }]
+  },
+  {
+    "label": "Number of Free White Females",
+    "data": [{ "key": "residenceSelfFree_white_females_raw", "type": "text" }]
+  }
+]

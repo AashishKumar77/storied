@@ -1,0 +1,36 @@
+.start-tree-wrapper {
+    @apply  flex justify-center items-center h-full;
+}
+.start-tree-wrapper > div {
+    @apply w-11/12 sm:w-4/5 sml:w-full shadow-sm h-140;
+}
+.rightImg {
+    @apply w-auto p-0 !important;
+}
+.start-tree-wrapper .btn-stepper {
+    @apply w-full !important;
+}
+.start-tree-wrapper .MuiPaper-root {
+    @apply left-2.5 sml:left-8 top-4 sml:top-8;
+}
+.start-tree-content {
+    @apply flex-none sml:flex justify-between;
+}
+.start-tree-content > div {
+    @apply w-full sml:w-100 pt-10 px-4 pb-5 sml:pt-16 sml:px-10;
+}
+.learn-more {
+    @apply absolute bottom-4 w-11/12 sml:w-4/5;
+}
+.learn-modal {
+    @apply w-full bg-white border border-gray-300 inline-block pt-3.5 pr-5 pl-2 sml:pt-4 sml:pr-6 sml:pl-4 pb-0 rounded-lg box-border mt-8 smm:mt-12 sml:mt-6 relative;
+}
+.modal-close-icon {
+    @apply absolute top-2 right-1.5 cursor-pointer;
+}
+.learn-modal li{
+    @apply mb-0.5;
+}
+.start-tree-btn {
+    @apply flex absolute bottom-4 justify-end w-11/12 sml:w-4/5;
+}

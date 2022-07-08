@@ -1,0 +1,43 @@
+.content-loader-wrap .MuiSkeleton-root {
+    @apply ml-0
+}
+
+.notification-card {
+    @apply border-b-1 border-gray-300
+}
+
+.notification-card:last-child {
+    @apply border-b-0
+}
+
+.nu-img-r {
+    @apply h-16;
+    min-width:64px;
+    max-width:64px;    
+}
+
+.ol-text,
+.max-two-lines,
+.max-three-lines {
+    @apply overflow-hidden relative;
+    word-break: break-word;
+    display: -webkit-box;    
+    -webkit-box-orient: vertical
+ }
+ .ol-text {
+    -webkit-line-clamp: 1;
+    word-break: break-all;
+ }
+.max-two-lines {    
+    -webkit-line-clamp: 2
+}
+.max-three-lines {    
+    -webkit-line-clamp: 3
+}
+
+@media (max-width:511px) {
+.main-wrapper.notifications-page {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+}

@@ -1,0 +1,15 @@
+.error-box{
+    @apply text-center pb-6;
+}
+
+.error-box .icon {
+    @apply cursor-default inline-block;
+}
+
+.error-box .icon svg {
+    @apply mx-auto w-28 mb-4 cursor-default;   
+}
+
+.file-upload {
+    @apply py-1.5 px-4 inline-block rounded-lg text-white text-base mt-6 cursor-pointer
+}

@@ -1,0 +1,338 @@
+
+.tw-page-banner {
+  height: 328px;
+}
+
+.tw-search-form-card input {
+  @apply text-base;
+}
+
+/* WW1 Search form page */
+
+.uw-description-col p.info span {
+  @apply block;
+}
+.uw-description-col span a {
+  @apply text-blue-400 underline;
+}
+.uw-description-col ul {
+  padding-left: 20px;
+}
+.uw-description-col li {
+  font-family: "Atlas Grotesk Web Regular", sans-serif !important;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  list-style-type: disc;
+}
+
+.uw-details-col span {
+  @apply md:block;
+}
+
+/* Universal search results page  */
+.search-page-title span {
+  @apply text-white block;
+}
+.search-top {
+  height: 328px;
+}
+.uni-collection-name {
+  max-width: 550px;
+}
+.page-wrap.universal-search-page {
+  @apply bg-white sm:bg-gray-100;
+}
+.universal-search-page .container {
+  max-width: 1199px;
+}
+.universal-search-page .uni-refine-search-sidebar {
+  @apply pt-4 md:pt-12 md:mt-1;
+}
+
+.event-select-dd option[disabled] {
+  @apply text-gray-400;
+}
+.event-select-dd option {
+  @apply text-gray-700;
+}
+
+.search-cards-wrap .item-block .thumb .MuiSkeleton-wave {
+  margin-left: 0;
+}
+
+.search-cards-wrap .item-block .thumb img {
+  min-width: 3.5rem;
+}
+
+.tw-sel-src option {
+  @apply text-gray-700;
+}
+
+/* WW1 results Page */
+.page-wrap.ww-results-wrap {
+  @apply bg-white md:bg-gray-100;
+}
+.ww-results-wrap .container {
+  @apply pt-2 mdl:pt-4 sm:px-3;
+  max-width: 1440px;
+}
+.ww-grid .sidebar-search {
+  @apply pt-4 md:pt-0;
+}
+.results-table th,
+.results-table td {
+  @apply font-normal;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.results-table td {
+  word-break: break-word;
+}
+.results-table th span.defaultText,
+.results-table td span.defaultText {
+  display: block;
+}
+.results-table .buttons a span {
+  @apply whitespace-nowrap;
+}
+.results-table .buttons a span:hover {
+  text-decoration: underline;
+}
+.results-table thead tr:hover {
+  border: 0 !important;
+}
+.results-table tr {
+  @apply border-1 border-gray-200 border-b-0 w-full;
+}
+.results-table tr:hover,
+.table-hover:hover {
+  @apply border-1 border-blue-400 w-full cursor-pointer;
+}
+.search-cards-wrap.active {
+  @apply border-1 border-blue-400 sm:rounded-lg;
+}
+.table-hover {
+  border-width: 1px;
+}
+tr.active {
+  @apply border-1 border-blue-400;
+}
+.th-show-mobile {
+  display: none;
+}
+.listing-img .MuiSkeleton-root {
+    @apply m-0 !important;
+}
+.edit-new-link-wrap .links button {
+  @apply mx-1 text-blue-400;
+  font-family: "Atlas Grotesk Web Medium", sans-serif !important;
+}
+
+.birth-year-field {
+  max-width: 170px;
+}
+.overlay-table {
+  @apply fixed w-full h-full inset-0 cursor-pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000 !important;
+}
+.sidebar-table {
+  margin-top: -4em;
+  z-index: 2000 !important;
+}
+.decoration {
+    text-decoration-color: #295da1 !important;
+}
+.result-hover:hover {
+    @apply ring-2 ring-blue-400 ring-offset-1 ring-inset lg:ring-offset-0;
+}
+.listing-img {
+    max-width: 80px;
+    min-width: 80px;
+    height: 138px;
+}
+.listing-img img, .listing-img .lazy-load-image-loaded {
+    @apply h-full;
+}
+.n-search-results-wrap .search-cards-wrap:nth-child(odd) .result-hover {
+    @apply bg-gray-100 lg:bg-white;
+}
+.text-2-line {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+          line-clamp: 2; 
+  -webkit-box-orient: vertical;
+}
+.text-3-line {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+          line-clamp: 3; 
+  -webkit-box-orient: vertical;
+}
+select:disabled {
+    @apply text-gray-400;
+}
+select.empty-value option {
+    @apply text-black;
+}
+select option[disabled] {
+    @apply text-gray-300;
+}
+select.empty-value {
+    @apply text-gray-400;
+}
+label[disabled] {
+    @apply text-gray-300;
+}
+.newpapersnav .lg\:px-3 {
+    @apply px-0;
+}
+/* Media Queries */
+/* ================================== */
+@media (min-width: 480px) {
+    .universal-search-page .uni-refine-search-sidebar {
+    max-width: 376px;
+  }
+}
+@media (min-width: 624px) {
+  .search-page-title span {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  .universal-search-page .uni-refine-search-sidebar {
+    -ms-flex: 0 0 34%;
+    flex: 0 0 34%;
+    max-width: 34%;
+  }
+
+  .universal-search-page .u-search-results-wrap {
+    -ms-flex: 0 0 66%;
+    flex: 0 0 66%;
+    max-width: 66%;
+  }
+
+  .br-field-md {
+    max-width: 425px;
+  }
+    .Keywordfields .no-cross {
+        max-width: 626px;
+    }
+    .tw-modal-dialog .no-cross {
+        max-width: 634px;
+    }
+}
+
+@media(min-width: 1024px){
+    .search-detail {
+        max-width: 447px;
+     }
+    .n-search-results-wrap .search-cards-wrap .head {
+        max-width: 192px;
+    }
+}
+
+@media (min-width: 960px) {
+  /*Universal search results page */
+
+  .universal-search-page .uni-refine-search-sidebar {
+    -ms-flex: 0 0 30.65%;
+    flex: 0 0 30.65%;
+    max-width: 30.65%;
+  }
+
+  .universal-search-page .u-search-results-wrap {
+    -ms-flex: 0 0 69.35%;
+    flex: 0 0 69.35%;
+    max-width: 69.35%;
+  }
+
+  /* WW1 search results page */
+  .ww-results-wrap .container {
+    @apply px-6;
+  }
+  .ww-grid {
+    @apply w-full flex justify-center;
+  }
+  .ww-grid .sidebar-search {
+    width: 280px;
+    min-width: 280px;
+  }
+  .ww-col-right {
+    @apply order-2 ml-4;
+  }
+}
+
+@media (max-width: 959px) {
+  .ww-grid {
+    margin: 0 auto;
+    max-width: max-content;
+  }
+  .ww-grid .sidebar-search {
+    width: 100%;
+    max-width: 376px;
+  }
+}
+@media (max-width: 767px) {
+  .search-top {
+    height: 94px;
+  }
+  .uni-collection-name {
+    max-width: 400px;
+  }
+  .newpapersnav nav{
+      @apply mt-5;
+  }
+    .cross-field{
+        width: calc(100% - 70px);
+    }
+}
+@media (max-width: 624px) {
+  .search-page-title span {
+    @apply text-2xl;
+  }
+  .uni-collection-name {
+    max-width: 270px;
+  }
+  .ww-results-wrap .container {
+    @apply px-0;
+  }
+  .ww-grid {
+    max-width: 100%;
+  }
+  .ww-grid .table-content,
+  .ww-grid .results-table {
+    width: 100%;
+  }
+  .results-table th {
+    @apply hidden;
+  }
+  .results-table td {
+    @apply block;
+  }
+  .results-table .buttons {
+    @apply hidden;
+  }
+  .results-table .th-show-mobile {
+    @apply inline-block;
+  }
+  .results-table .name-col .defaultText {
+    font-family: "Atlas Grotesk Web Medium", sans-serif !important;
+  }
+}
+
+@media (max-width: 479px) {
+  .uni-collection-name {
+    max-width: 230px;
+  }
+}
+
+@media (max-width: 350px) {
+  .uni-collection-name {
+    max-width: 200px;
+  }
+}

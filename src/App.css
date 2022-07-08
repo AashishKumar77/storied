@@ -1,0 +1,349 @@
+@font-face {
+  font-family: "Atlas Grotesk Web Regular";
+  src: url("./assets/fonts/AtlasGrotesk-Regular-Web.woff") format("woff"),
+    url("./assets/fonts/AtlasGrotesk-Regular-Web.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Atlas Grotesk Web Light";
+  src: url("./assets/fonts/AtlasGrotesk-Light-Web.woff") format("woff"),
+    url("./assets/fonts/AtlasGrotesk-Light-Web.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Atlas Grotesk Web Medium";
+  src: url("./assets/fonts/AtlasGrotesk-Medium-Web.woff") format("woff"),
+    url("./assets/fonts/AtlasGrotesk-Medium-Web.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Atlas Grotesk Web Bold";
+  src: url("./assets/fonts/AtlasGrotesk-Bold-Web.woff") format("woff"),
+    url("./assets/fonts/AtlasGrotesk-Bold-Web.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Atlas Grotesk Web Regular";
+  src: url("./assets/fonts/AtlasGrotesk-Regular-Web.woff") format("woff"),
+    url("./assets/fonts/AtlasGrotesk-Regular-Web.woff2") format("woff2");
+}
+/*------- Lyon Display font -------*/
+@font-face {
+  font-family: "LyonDisplay Regular Web";
+  src: url("./assets/fonts/LyonDisplay-Regular-Web.woff") format("woff"),
+    url("./assets/fonts/LyonDisplay-Regular-Web.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "LyonDisplay Medium Web";
+  src: url("./assets/fonts/LyonDisplay-Medium-Web.woff") format("woff"),
+    url("./assets/fonts/LyonDisplay-Medium-Web.woff2") format("woff2");
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+/* Application Container */
+.application-wrapper {
+  min-height: 100%;
+  display: grid;
+  /* grid-template-rows: auto 1fr auto;  */
+  grid-template-columns: 100%;
+}
+.main-wrapper {
+  @apply px-3 md:px-0 relative;
+}
+
+.main-container {
+  @apply bg-gray-200;
+}
+.max-w-full-header {
+  @apply max-w-full !important;
+}
+
+@media (min-width: 1441px) {
+  .main-wrapper {
+    min-width: 1440px;
+    max-width: 1440px;
+  }
+}
+
+/*added by smartdata (Ankush) */
+/* ============================================ */
+.page-wrap {
+  @apply pt-14 md:pt-14 bg-gray-100;
+}
+
+.page-wrap-bg-dk {
+  @apply pt-14 md:pt-16 sm:bg-gray-200 pb-10;
+}
+
+.cus-text-shadow {
+  text-shadow: 0px 2px 12px rgba(0, 0, 0, 0.7);
+}
+
+/* ============================================ */
+
+/*added by smartdata(sanjeev)*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* added by Cybage */
+.MuiInputBase-root::-webkit-contacts-auto-fill-button {
+  visibility: hidden;
+  display: none !important;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+}
+
+input::-webkit-contacts-auto-fill-button {
+  visibility: hidden;
+  display: none !important;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+}
+
+.typo-font-regular,
+.application-wrapper,
+.MuiPopover-root,
+.MuiMenuItem-root,
+.MuiTableCell-root,
+.reactour__helper,
+.btn,
+input,
+.MuiInputBase-root,
+.filter-list,
+.MuiAutocomplete-listbox,
+.MuiTypography-h1,
+.heading-4 {
+  font-family: "Atlas Grotesk Web Regular", sans-serif !important;
+}
+
+.typo-font-light {
+  font-family: "Atlas Grotesk Web Light", sans-serif;
+}
+
+.typo-font-medium,
+.modal-row {
+  font-family: "Atlas Grotesk Web Medium", sans-serif;
+}
+
+.typo-font-bold {
+  font-family: "Atlas Grotesk Web Bold", sans-serif !important;
+}
+
+.lyon-font-regular {
+  font-family: "LyonDisplay Regular Web", sans-serif !important;
+}
+
+.lyon-font-medium {
+  font-family: "LyonDisplay Medium Web", sans-serif !important;
+}
+
+#birthPlace,
+#deathPlace {
+  @apply normal-case;
+}
+body .MuiBackdrop-root {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.body-overflow {
+  overflow: auto !important;
+  padding-right: 0 !important;
+}
+/* For upload GEDCOM flow combobox component */
+.home-person .MuiAutocomplete-root {
+  position: relative;
+  z-index: 9999;
+}
+
+/* - standardize thumbnails - */
+
+/* Font Medium */
+.avatar-top .avtar-circle-large span,
+.avtar-circle-large span,
+.avtar-circle-large-name .main-title,
+.avtar-circle-large-name .main-title span,
+.avtar-circle-large-name.main-title > span,
+.avtar-circle-medium .MuiAvatar-circle,
+.avatar-top .avtar-circle-medium span,
+.avtar-circle-medium span,
+.avtar-circle-medium-name .main-title,
+.avatar-top .avtar-circle-small span,
+.avtar-circle-small span,
+.avtar-circle-small-name .main-title,
+.avtar-square-large-name .main-title,
+.avtar-square-large-name .main-title span,
+.avtar-square-medium-name .main-title,
+.avtar-square-medium-name .main-title span,
+.avtar-square-small-name .main-title,
+.avtar-square-small-name .main-title span {
+  font-family: "Atlas Grotesk Web Medium", sans-serif !important;
+}
+/* Font Regular */
+.avtar-circle-large-name .sub-title,
+.avtar-circle-large-name .sub-title span,
+.avtar-circle-medium-name .sub-title,
+.avtar-circle-small-name .sub-title,
+.avtar-square-large-name .sub-title,
+.avtar-square-large-name .sub-title span,
+.avtar-square-medium-name .sub-title,
+.avtar-square-medium-name .sub-title span,
+.avtar-square-small-name .sub-title,
+.avtar-square-small-name .sub-title span {
+  font-family: "Atlas Grotesk Web Regular", sans-serif !important;
+}
+
+/* Large Name */
+.avtar-circle-large-name .main-title,
+.avtar-square-large-name .main-title {
+  @apply text-sm text-gray-700 mb-0 !important;
+}
+.avtar-circle-large-name .main-title span,
+.avtar-circle-large-name.main-title > span,
+.avtar-square-large-name .main-title span {
+  @apply text-sm text-gray-700 !important;
+}
+.avtar-circle-large-name .sub-title,
+.avtar-circle-large-name .sub-title span,
+.avtar-square-large-name .sub-title,
+.avtar-square-large-name .sub-title span {
+  @apply text-xs text-gray-500 static pt-0 leading-tight !important;
+}
+/* Medium Name */
+.avtar-square-medium-name .main-title,
+.avtar-square-medium-name .main-title span,
+.avtar-circle-medium-name .main-title {
+  @apply text-xs text-gray-700 capitalize !important;
+}
+.avtar-square-medium-name .sub-title {
+  @apply text-vs text-gray-500 static pt-0 leading-tight min-h-0 mt-0.5 !important;
+}
+.avtar-square-medium-name .sub-title span,
+.avtar-circle-medium-name .sub-title {
+  @apply text-vs text-gray-500 static pt-0 leading-tight !important;
+}
+/* Small Name */
+.avtar-circle-small-name .main-title,
+.avtar-square-small-name .main-title span {
+  @apply text-xs text-gray-700 !important;
+}
+.avtar-square-small-name .main-title {
+  @apply text-xs text-gray-700 mb-0.5 !important;
+}
+.avtar-square-small-name .sub-title {
+  @apply text-vs text-gray-500 static pt-0 leading-tight min-h-0 !important;
+}
+.avtar-square-small-name .sub-title span,
+.avtar-circle-small-name .sub-title {
+  @apply text-vs text-gray-500 static pt-0 leading-tight !important;
+}
+
+/* ICON LARGE */
+.avatar-top .avtar-circle-large,
+.avtar-circle-large,
+.avtar-circle-large .MuiAvatar-circle,
+.avtar-square-large {
+  @apply w-10 h-10 overflow-hidden !important;
+}
+/* circle-large */
+.avatar-top .avtar-circle-large,
+.avtar-circle-large {
+  @apply rounded-full text-xs !important;
+}
+.avtar-circle-large .MuiAvatar-circle {
+  @apply rounded-full text-vs !important;
+}
+.avatar-top .avtar-circle-large span,
+.avtar-circle-large span {
+  @apply text-xs !important;
+}
+/* square-large */
+.avtar-square-large {
+  @apply rounded !important;
+}
+.avtar-square-large img {
+  @apply rounded w-10 h-10 min-w-10 !important;
+}
+/* ICON MEDIUM */
+.avatar-top .avtar-circle-medium,
+.avtar-circle-medium,
+.avtar-circle-medium .MuiAvatar-circle,
+.avtar-square-medium {
+  @apply w-8 h-8 min-w-8 overflow-hidden !important;
+}
+/* circle-Medium */
+.avatar-top .avtar-circle-medium,
+.avtar-circle-medium {
+  @apply rounded-full !important;
+}
+.avtar-circle-medium .MuiAvatar-circle {
+  @apply rounded-full text-vs !important;
+}
+.avatar-top .avtar-circle-medium span,
+.avtar-circle-medium span {
+  @apply text-vs !important;
+}
+/* square-medium */
+.avtar-square-medium {
+  @apply rounded !important;
+}
+.avtar-square-medium span {
+  @apply text-vs !important;
+}
+/* ICON SMALL */
+/* circle-small */
+.avatar-top .avtar-circle-small,
+.avtar-circle-small,
+.avtar-square-small {
+  @apply w-6 h-6 min-w-6 overflow-hidden !important;
+}
+.avatar-top .avtar-circle-small,
+.avtar-circle-small {
+  @apply rounded-full w-6 h-6 !important;
+}
+.avatar-top .avtar-circle-small span,
+.avtar-circle-small span {
+  @apply text-vs !important;
+}
+/* square-small */
+.avtar-square-small {
+  @apply rounded !important;
+}
+.avtar-square-small img {
+  @apply rounded !important;
+}
+
+.avtar-group:hover .avtar-square-large-name .main-title,
+.avtar-group:hover .avtar-square-large-name .main-title span,
+.avtar-group:hover .avtar-square-medium-name .main-title,
+.avtar-group:hover .avtar-square-medium-name .main-title span,
+.avtar-group:hover .avtar-square-small-name .main-title,
+.avtar-group:hover .avtar-square-small-name .main-title span {
+  @apply text-blue-400 underline !important;
+}
+
+select:disabled {
+  @apply bg-gray-200;
+}
+.homepage {
+  @apply bg-gray-200;
+}

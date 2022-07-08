@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given Date Component Test if Date Component is Properly Rendered 1`] = `ShallowWrapper {}`;

@@ -1,0 +1,83 @@
+.drawer-title span {
+  @apply line-clamp-2 leading-tight break-words;
+}
+.drawer-close {
+  @apply absolute right-8 top-8;
+}
+.drawer-close .icon-small {
+  @apply block;
+}
+.drawer-close .icon-small svg path {
+  stroke: #747578 !important;
+}
+.drawer-close .icon-small:hover svg path {
+  stroke: #555658 !important;
+}
+.search-icon {
+  @apply absolute left-2.5 top-2;
+}
+.search-icon .icon-small {
+  @apply block;
+}
+
+.search-input {
+  @apply mb-5 px-6;
+}
+.search-input-inner {
+  @apply relative;
+}
+.search-input .MuiFormControl-root .MuiAutocomplete-input {
+  @apply text-gray-700 text-sm;
+}
+.search-input .MuiFormControl-root .MuiAutocomplete-input::placeholder {
+  @apply text-gray-400;
+}
+.search-input .MuiFormControl-root .MuiAutocomplete-input::-moz-placeholder {
+  @apply text-gray-400;
+}
+.search-input .MuiFormControl-root .MuiAutocomplete-input::-webkit-input-placeholder {
+  @apply text-gray-400;
+}
+.search-input:hover .MuiFormControl-root .MuiOutlinedInput-notchedOutline {
+  border-color: #295da1;
+  box-shadow: 0px 0px 0px 2px #dae3ef;
+}
+.search-input .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #295da1 !important;
+  border-width: 1px;
+  box-shadow: 0px 0px 0px 2px #dae3ef;
+}
+.search-box-wrapper {
+  @apply flex flex-col h-full max-h-full overflow-hidden;
+}
+.search-box-wrapper > .flex {
+  @apply flex-col h-full;
+}
+.search-box-wrapper > .flex > .flex {
+  @apply flex-col h-full max-h-full;
+}
+.search-box-wrapper > .flex > .flex .MuiAutocomplete-popper {
+  @apply h-full max-h-full mx-auto overflow-y-auto;
+  width: 100% !important;
+}
+.tree-person-option {
+  @apply flex flex-col items-start w-full;
+}
+.search-box-wrapper .MuiAutocomplete-option {
+  @apply pl-6 pr-6;
+}
+.tree-person-name {
+  @apply line-clamp-2 leading-5;
+}
+
+.lifespan {
+  @apply text-xs text-gray-500  truncate w-full flex;
+}
+.lifespan .tree-name {
+  @apply flex ml-1 pl-2 relative;
+}
+.lifespan .tree-name::before {
+  @apply absolute left-0 top-1/2 leading-none flex transform -translate-y-1/2;
+  content: "•";
+  margin-top: -1px;
+}

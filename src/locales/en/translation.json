@@ -1,0 +1,396 @@
+{
+    "dropdown": {   
+      "selectUser": "Select User"
+    },
+    "header": {
+      "family": "Family",
+      "getstarted": "Get started",
+      "home": "Home",
+      "login": "Log in",
+      "search": "Search",
+      "myAccount": "My Account",
+      "editProfile": "Edit Profile",
+      "logout": "Logout"
+    },
+    "person": {
+      "unknownSpouse": "Unknown Spouse",
+      "unknownChildren": "Unknown Children",
+      "header":{
+        "details": "Details",
+        "research": "Research",
+        "stories": "Stories",
+        "b":"B:",
+        "d":"D:",
+        "imgupload":"Add Photo"
+      },      
+      "btn":{
+        "search":"Search",
+        "viewtree":"View Tree"
+      },
+      "heading":{
+        "personalinfo":"Personal Info",
+        "family":"Family",
+        "lifeEvents":"All Life Events"
+      },
+      "menu":{
+        "marriage":"Marriage",
+        "divorce":"Divorce",
+        "funeral":"Funeral",
+        "burial":"Burial",
+        "cremation":"Cremation",
+        "other":"Other",
+        "parent":"Parent",
+        "spouse":"Spouse",
+        "sibling":"Sibling",
+        "child":"Child",
+        "LifeEvents":"All Life Events"
+      },
+      "table":{
+        "personalinfo":{
+          "fname":"First Name(s)",
+          "lname":"Last Name(s)",
+          "gender":"Gender"
+        },
+        "events":{
+          "events":"Events",
+          "age":"Age",
+          "date":"Date",
+          "location":"Location",
+          "relationship":"Relationship"
+        },
+        "spousechildren":{
+          "spouseandchildren":"Spouse & Children",
+          "gender":"Gender",
+          "birth":"Birth",
+          "bl":"Birth Location",
+          "death":"Death",
+          "dl":"Death Location",
+          "marriage":"Marriage",
+          "spouse":"Spouse",
+          "children": "Children"
+        },
+        "parentsibling":{
+          "parentandsibling":"Parents & Siblings",
+          "gender":"Gender",
+          "birth":"Birth",
+          "bl":"Birth Location",
+          "death":"Death",
+          "dl":"Death Location",
+          "marriage":"Marriage",
+          "spouse":"Spouse"
+        },
+        "placelived":{
+          "location":"Location",
+          "date":"Date",
+          "maritalstatus":"Marital Status",
+          "desc":"Description",
+          "age": "Age",
+          "type":"Type",
+          "fm":"Family Members"
+        }
+        
+      }
+    },
+    "table": {
+      "treeName": "Tree Name",
+      "url": "Url",
+      "viewTree": "View Tree"
+    },
+    "family":{
+      "stepper":{
+        "initial": {
+          "title": "Start Telling Your Story",
+          "desc": "Start from scratch or upload a tree you have downloaded from another website.",
+          "btn1": "Start a Tree",
+          "btn2": "Upload Existing Tree",
+          "footer": "What type of file should you upload? We support the GEDCOM format.",
+          "learnMore": "Learn more."
+        },
+        "startTree": {
+          "step1": {
+            "title": "Let’s Start with the Basics",
+            "desc": "Tell us a little about yourself. We’ll use this info to help provide you with stories, photos, and records that are relevant to you and your family.",
+            "labels": {
+              "name": "Name",
+              "birth": "Birth"
+            },
+            "placeHolders": {
+              "fName": "First Name(s)",
+              "lName": "Last Name(s)",
+              "birth": "Birth Date or Year",
+              "birthPlace": "Birth Place"
+            },
+            "backButton": "Back",
+            "nextButton": "Next"
+          },
+          "step2": {
+            "title": "Creating Your Tree",
+            "desc": "We’ll be working behind the scenes to identify family members and find exciting stories you can add to your tree."
+          }
+        },
+        "uploadTree": {
+          "step1": {
+            "title": "Upload Your Family Tree",
+            "desc": "To protect the privacy of living individuals, their information will be hidden from other users. Deceased individuals can be seen by other Storied users by default, but you can change this in your tree settings.",
+            "fileSelector": "Upload GEDCOM",
+            "agree": "I accept that any uploaded GEDCOM files are considered to be user provided content as defined in our Terms and Conditions, and are subject to the Storied",
+            "privacy": "Privacy Statement",
+            "and": "and",
+            "terms": "Terms and Conditions",
+            "backButton": "Back",
+            "nextButton": "Upload"
+          },
+          "step2": {
+            "title": "Uploading File",
+            "desc": "After your file is uploaded, you'll need to choose a home person for the tree. The home person is the individual whose descendants and ancestors are shown in the tree."
+          },
+          "step3": {
+            "title": "Choose a Home Person",
+            "desc": "Typically you'll choose yourself as the home person, but if you're researching a specific family member, you might want to select them.",
+            "label": "Home Person",
+            "checkBox": "I am the home person.",
+            "backButton": "Back",
+            "nextButton": "Done"
+          },
+          "step4": {
+            "title": "Creating Your Tree",
+            "desc": "Depending on the size of the GEDCOM file, this might take a minute! As it’s uploaded, we’ll start looking for clues to more family members and stories you can add to your tree."
+          }
+        },
+        "modal": {
+          "title": "If you need help downloading your tree from another site, select the link below.",
+          "links": {
+            "ancestry": "Ancestry",
+            "familyTree": "Family Tree Maker",
+            "roots": "Roots Magic",
+            "legacy": "Legacy Family Tree",
+            "familySearch": "Family Search"
+          }
+        }
+      }
+    },
+    "pedigree":{
+      "tooltip":{
+        "heading":"Nice work!",
+        "desc":"Now add your parents. The more you build your tree, the more we can show you."
+      },
+      "placeholder":{
+        "father": "Add Father",
+        "mother": "Add Mother"
+      },
+      "nodeform":{
+        "fname":"First Name(s)",
+        "lname":"Last Name(s)",
+        "bdoy":"Birth Date or Year",
+        "bplace":"Birthplace",
+        "ddoy":"Death Date or Year",
+        "dplace":"Death Place",
+        "birth":"Birth",
+        "death":"Death",
+        "living":"This person is living.",
+        "gender":"Gender"
+      },
+      "actions":{
+        "view":"View",
+        "makefocus":"Make Focus of Tree",
+        "qedit":"Quick Edit",
+        "add":{
+          "family":"Add Family",
+          "spouse":"Add Spouse",
+          "child":"Add Child",
+          "parent":"Add Parent",
+          "sibling":"Add Sibling"
+        }
+      },  
+      "card":{
+        "b":"B:",
+        "d":"D:"
+      },   
+      "dialog":{
+          "header":{
+            "add":{
+              "parent":"Add Parent",
+               "child":"Add Child",
+               "sibling":"Add Sibling",
+               "spouse":"Add Spouse",
+               "father":"Add a Father to",
+               "mother":"Add a Mother to",
+               "other":"Add a Parent to"
+            },
+            "edit":"Edit"
+          },
+          "gender":{
+              "male":"Male",
+              "female":"Female",
+              "other":"Other",
+              "unknown":"Unknown"
+          },
+          "form":{
+            "fname":"First Name(s)",
+            "lname":"Last Name(s)",
+            "bdoy":"Birth Date or Year",
+            "bplace":"Birthplace",
+            "ddoy":"Death Date or Year",
+            "dplace":"Death Place",
+            "birth":"Birth",
+            "death":"Death",
+            "living":"This person is living.",
+            "gender":"Gender",
+            "btn":{
+              "save":"Save",
+              "cancel":"Cancel"
+            }
+          }
+      }
+    
+    },
+    "search":{
+      "nresult": "No Results",
+      "form": {
+        "dropdown" :{
+          "exact": "Exact",
+          "similar": "Similar",
+          "broad": "Broad",
+          "exactcity": "ExactCity",
+          "exactcounty": "ExactCounty",
+          "exactstate": "ExactState",
+          "exactcountry": "ExactCountry"
+        }
+      },
+      "start":{
+        "records":"Records",
+        "collectionSearch": "Search by Collection",
+        "unisearch":"Universal Search",
+        "wwi":"WWI"
+      },
+      "records":{
+        "heading":{
+            "ssdi":"SSDI",
+            "news":"Newspaper",
+            "census":"Census"
+        },
+        "desc":{
+            "d1":"ssdi records without any clue",
+            "d2":"ssdi records with death location clue",
+            "d3":"ssdi records with death date clue",
+            "d4":"newspaper records without any clue",
+            "d5":"newspaper records with birth loaction clue",
+            "d6":"newspaper records with death date clue",
+            "d7":"census records without any clue",
+            "d8":"census records with relationship clue",
+            "d9":"census records with birth date clue"           
+        }
+      },
+      "unisearchform":{
+        "search":"Search",
+        "adsearch":"Advanced Search",
+        "clr":"Clear",
+        "malltrms":"Match all search terms exactly",
+        "autocomplete":"City, County, State, Country",
+        "location":{
+          "select":"Select",
+          "livedin":"Lived in",
+          "born":"Born",
+          "died":"Died",
+          "milatry":"Milatry",
+          "immigration":"Immigration",
+          "education":"Education",
+          "employment":"Employment"
+        },
+        "advsearch":{
+          "fmname":"First & Middle Name(s)",
+          "lname":"Last Name",
+          "add":"Add",
+          "father":"Father",
+          "mother":"Mother",
+          "sibling":"Sibling",
+          "spouse":"Spouse",
+          "child":"Child",
+          "keyword":"Keyword",
+          "gender":"Gender",       
+          "option":{
+            "select":"Select",
+            "m":"Male",
+            "f":"Female",
+            "o":"Others"
+          },
+          "collection":"Collection",
+          "acollection":"All Collections",
+          "census":"Census",
+          "ssdi":"SSDI",
+          "news":"Newspaper",
+          "placeholder":{
+            "osae":"Occupation, street address ,etc.",
+            "year":"Year"
+          }
+        }
+      },
+      "rsltlst":{
+        "norsltbfornm":"We can't find a",
+        "norsltaftrnm":"that matches your search",
+        "norsltwrng":"Try alternate spellings of the person's name, limiting or expanding dates, or using broad instead of exact searches.",
+        "alrslt":"All results",
+        "alrsltfr":"All Results for"
+      },
+      "ww1":{
+        "form":{
+          "heading":"Washington State WWI Casualty List",
+          "fmname":"First & Middle Name(s)",
+          "lname":"Last Name",
+          "hometown":"Hometown",
+          "codoi":"Cause of Death or Injury",
+          "milrank":"Military Rank",
+          "clear":"Clear",
+          "dropdown":{
+            "loading":"Loading...",
+            "select":"Select"
+          },
+          "btn":{
+            "search":"Search"
+          }
+        },
+        "list":{
+          "heading":"Washington State WWI Casualty List",
+          "tryerr":"Some Error has ocurred, Please try again later",
+          "norerr":"No Record Found",
+          "rsearch":"Revise Search",
+          "esearch":"Edit Search",
+          "nsearch":"New Search",
+          "results":"Results",
+          "noresult":"No Results",
+          "name":"Name",
+          "city":"City",
+          "rank":"Rank",
+          "cod":"Cause of Death",
+          "viewrd":"View Record",
+          "more":"More"
+        }
+        
+
+      }
+     
+    },
+    "home": {
+      "profile": {
+        "person": "Person",
+        "people": "People",
+        "story": "Story",
+        "stories": "Stories",
+        "clues": "Clues",
+        "comingSoon": "coming soon",
+        "recentlyViewed": "Recently Viewed",
+        "trees": "Trees",
+        "noTrees": "No trees yet",
+        "noStories": "No stories yet"
+      },
+      "WelcomeCard": {
+        "welcomeNote":"This is the place to watch your story unfold. You'll find personalized stories, photos, and clues that let you discover new details about the people and places that matter to you. Start a memorable journey now by telling your first story."
+      }
+    },
+    "stories": {
+      "public": "Public",
+      "private": "Private",
+      "privateSubText": "Private Only you can see this story.",
+      "publicSubText": "Public Internal Alpha users can see this story."
+    }
+  }

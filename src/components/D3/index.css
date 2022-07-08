@@ -1,0 +1,153 @@
+.d3tree-container {
+  background: #EFEFF0;
+  width: 100vw;
+  height: 100vh;
+  
+}
+path.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1px;
+}
+
+foreignObject[height="1"]
+{
+  overflow: visible;
+}
+svg:focus{
+  outline: -webkit-focus-ring-color auto 0px
+}
+div.tooltip {
+  position: absolute;
+  background: #212122;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: 600;
+  opacity: 1;
+  padding: 8px;
+  line-height: 16px;
+  max-width: 280px;
+  width: max-content; 
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+/* Tree Actions */
+.icon-wrapper {
+  width: 32px;
+  height: 32px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.icon-wrapper:hover {
+  background: #F9F9F9;
+}
+
+.icon-wrapper:active {
+  background: #EFEFF0;
+}
+
+.two-icons-wrapper {
+  width: 32px;
+  height: 65px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}
+
+.group-icon {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  cursor: default;
+}
+
+.top-icon:hover, .home-icon:hover{
+  background: #F9F9F9;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  cursor: pointer;
+}
+
+.bottom-icon:hover {
+  background: #F9F9F9;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  cursor: pointer;
+}
+
+.top-icon:active, .home-icon:active{
+  background: #EFEFF0;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.bottom-icon:active{
+  background: #EFEFF0;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.top-disable, .home-disable {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  cursor: default;
+  background: #f5f5f5;
+  color: #ccc;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.search-disable, .reset-disable{
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  cursor: default;
+  background: #f5f5f5;
+  color: #ccc;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.bottom-disable {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  cursor: default;
+  background: #f5f5f5;
+  color: #ccc;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.group-split {
+  border: 1px solid #EEE;
+}
+
+.arrow-icon {
+  cursor: pointer;
+}

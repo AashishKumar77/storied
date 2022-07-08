@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test TWPagination component with props 0 records match snapshot 1`] = `ReactWrapper {}`;
+
+exports[`Test TWPagination component with props match snapshot 1`] = `ReactWrapper {}`;
+
+exports[`Test TWPagination component with props with currentPage match snapshot 1`] = `ReactWrapper {}`;
+
+exports[`Test TWPagination component with props with large screen match snapshot 1`] = `ReactWrapper {}`;

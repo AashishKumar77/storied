@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given dialogdropdown component Test if DialogDropdown component is properly rendered  1`] = `ShallowWrapper {}`;

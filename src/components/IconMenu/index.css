@@ -1,0 +1,14 @@
+.family-event-popover {
+  @apply w-55;
+}
+.family-event-popover .MuiAutocomplete-popper {
+  @apply w-full !important;
+  @apply relative !important;
+}
+.family-event-popover .MuiAutocomplete-popper .MuiAutocomplete-listbox {
+  @apply max-h-46 py-1 !important;
+}
+
+.family-event-popover .MuiAutocomplete-paper {
+  @apply my-0 !important;
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="D:\Storied\frontend\Wa.Storied.Web\src\test\components\SelectButton\index.test.js">
+    <testCase name="SelectButton Component selectButton component renders properly" duration="29"/>
+    <testCase name="SelectButton Component accepts title props" duration="2"/>
+    <testCase name="SelectButton Component accepts handleSelect props" duration="1"/>
+    <testCase name="SelectButton Component select-button toBeTruthy" duration="4"/>
+  </file>
+  <file path="D:\Storied\frontend\Wa.Storied.Web\src\test\components\Button\index.test.js">
+    <testCase name="should test Button component with list of props" duration="11"/>
+    <testCase name="Test Button component Test click event" duration="7"/>
+  </file>
+  <file path="D:\Storied\frontend\Wa.Storied.Web\src\test\components\Dialog\index.test.js">
+    <testCase name="should test Dialog component with list of props" duration="28"/>
+  </file>
+  <file path="D:\Storied\frontend\Wa.Storied.Web\src\test\components\Dropdown\DialogDropdown.test.js">
+    <testCase name="Given dialogdropdown component Test if DialogDropdown component is properly rendered " duration="14"/>
+  </file>
+  <file path="D:\Storied\frontend\Wa.Storied.Web\src\test\components\ComboBox\index.test.js">
+    <testCase name="Combobox Enzyme mount()  renders a &lt;ComboBox/&gt; component with expected props" duration="224"/>
+  </file>
+  <file path="D:\Storied\frontend\Wa.Storied.Web\src\test\components\Select\index.test.js">
+    <testCase name="Given Select component Test if Select component is properly rendered " duration="1"/>
+    <testCase name="Given Select component check for menuItem" duration="327"/>
+  </file>
+  <file path="D:\Storied\frontend\Wa.Storied.Web\src\test\components\Loader\index.test.js">
+    <testCase name="Test Loader component" duration="8"/>
+    <testCase name="Loader testing Loader component renders properly" duration="1"/>
+    <testCase name="Loader testing check loader default color props" duration="1"/>
+  </file>
+  <file path="D:\Storied\frontend\Wa.Storied.Web\src\test\components\ImagePopper\index.test.js">
+    <testCase name="Given ImagePopper component should test ImagePopper component with list of props" duration="13"/>
+  </file>
+  <file path="D:\Storied\frontend\Wa.Storied.Web\src\test\components\Skeleton\index.test.js">
+    <testCase name="check for MySkeleton component" duration="50"/>
+  </file>
+  <file path="D:\Storied\frontend\Wa.Storied.Web\src\test\components\Modal\index.test.js">
+    <testCase name="Given Modal component Test if Modal component is properly rendered " duration="1"/>
+  </file>
+  <file path="D:\Storied\frontend\Wa.Storied.Web\src\test\components\ImageCropper\index.test.js">
+    <testCase name="should test Image Cropper component with list of props" duration="2"/>
+  </file>
+</testExecutions>

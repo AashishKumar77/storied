@@ -1,0 +1,6 @@
+.modal-row {
+    @apply mt-2 smm:mt-4;
+}
+.modal-res-row {
+    @apply flex justify-between flex-col smm:flex-row;
+}

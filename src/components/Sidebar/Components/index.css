@@ -1,0 +1,24 @@
+.records .record-label {    
+    min-width: 7rem;
+}
+.records .record-label span {
+    @apply text-gray-300
+}
+.records .right-text span {
+    @apply text-white
+}
+.sidebar-table {
+    margin-top: -4em;
+    z-index: 200;
+}
+.save-mt {
+    margin-top: 0.4rem;
+}
+.sidepanel-table tr td {
+    padding-bottom: 0.2em;
+    @apply hover:text-skyblue-300
+}
+.sidepanel-table tr th:nth-child(1), .sidepanel-table tr td:nth-child(1) {
+    max-width: 8rem;
+    word-break: break-word;
+}

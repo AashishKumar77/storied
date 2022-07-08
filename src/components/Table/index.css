@@ -1,0 +1,392 @@
+.table-main {
+  @apply w-full block;
+}
+
+.table-main td {
+  @apply border-l-1 border-gray-200;
+}
+.table-main tr {
+  @apply border-b border-t border-gray-200;
+}
+
+/* Personal Info */
+#personInfo tr th:nth-child(1),
+#personInfo tr td:nth-child(1) {
+  @apply max-w-lgl;
+}
+
+#personInfo tr td:nth-child(1) div {
+  @apply max-w-lg truncate;
+}
+
+#personInfo tr th:nth-child(2),
+#personInfo tr td:nth-child(2) {
+  @apply max-w-lgl;
+}
+
+#personInfo tr td:nth-child(2) div {
+  @apply max-w-lg truncate;
+}
+
+#personInfo tr th:nth-child(3),
+#personInfo tr td:nth-child(3) {
+  @apply w-16 text-center;
+}
+
+#personInfo tr td:nth-child(3):focus {
+  @apply border-double border-blue-400 bg-blue-100 shadow-cell;
+}
+
+/* Events */
+#events tr th:nth-child(1),
+#events tr td:nth-child(1) {
+  @apply max-w-xssm;
+}
+
+#events tr td:nth-child(1) div {
+  @apply max-w-xss truncate;
+}
+
+#events tr th:nth-child(2),
+#events tr td:nth-child(2) {
+  @apply w-14;
+}
+
+#events tr td:nth-child(2) div {
+  @apply w-12 truncate;
+}
+
+#events tr th:nth-child(3),
+#events tr td:nth-child(3) {
+  @apply w-32 max-w-32;
+}
+
+#events tr th:nth-child(3) > div > div,
+#events tr td:nth-child(3) > div > div {
+  @apply max-w-32  truncate;
+}
+
+#events tr th:nth-child(4),
+#events tr td:nth-child(4) {
+  @apply max-w-lgm w-48;
+}
+
+#events tr th:nth-child(4) input {
+  @apply max-w-lgm w-48;
+}
+
+#events tr td:nth-child(4) div .tooltip-content {
+  @apply max-w-lgm truncate;
+}
+
+#events tr th:nth-child(5),
+#events tr td:nth-child(5) {
+  @apply max-w-lgm;
+}
+
+#events tr td:nth-child(5) div {
+  @apply max-w-lgm truncate;
+}
+
+#family tr th:nth-child(1),
+#family tr td:nth-child(1) {
+  @apply w-66.5 flex items-center;
+}
+
+#family tr td:nth-child(1) div {
+  @apply truncate;
+}
+
+.table-main th:first-child {
+  @apply text-skyblue-600;
+}
+
+.table-main td:first-child img {
+  @apply inline-block;
+}
+
+#family tr th:nth-child(2),
+#family tr td:nth-child(2) {
+  @apply max-w-18 min-w-18 text-center;
+}
+
+#family tr th:nth-child(2) div,
+#family tr td:nth-child(2) div {
+  @apply max-w-18 truncate ml-0;
+}
+
+#family tr th:nth-child(4),
+#family tr td:nth-child(4),
+#family tr th:nth-child(6),
+#family tr td:nth-child(6) {
+  @apply max-w-vxs min-w-vxs;
+}
+#family tr td:nth-child(4) input,
+#family tr td:nth-child(6) input {
+  @apply max-w-85 min-w-58 bg-white	h-full;
+}
+#family tr td:nth-child(4) div .tooltip-content,
+#family tr td:nth-child(6) div .tooltip-content {
+  @apply max-w-85 min-w-58 truncate;
+}
+
+#family th:nth-child(3),
+#family td:nth-child(3),
+#family th:nth-child(5),
+#family td:nth-child(5),
+#family th:nth-child(7),
+#family td:nth-child(7) {
+  @apply max-w-30 min-w-30;
+}
+#family td:nth-child(3) input,
+#family td:nth-child(5) input,
+#family td:nth-child(7) input {
+  @apply max-w-30 min-w-30;
+}
+
+#family td:nth-child(3) .tooltip-content,
+#family td:nth-child(5) .tooltip-content,
+#family td:nth-child(7) .tooltip-content {
+  @apply max-w-26 min-w-26 truncate;
+}
+
+#family tr th:nth-child(8),
+#family tr td:nth-child(8) {
+  @apply max-w-45 min-w-45;
+}
+#family tr td:nth-child(8) input {
+  @apply max-w-45 min-w-45;
+}
+#family tr td:nth-child(8) div .tooltip-content {
+  @apply max-w-44 min-w-44 truncate;
+}
+
+.table-main th {
+  @apply border-0 border-r-1 border-gray-200 font-normal;
+}
+
+.table-column {
+  @apply text-gray-400 border text-left border-gray-200 px-3 py-2.5;
+}
+
+.table-data {
+  @apply text-gray-700 border border-gray-200 px-3 py-2.5;
+}
+
+.left-border {
+  @apply border-l-4 !important border-skyblue-600 !important;
+}
+
+/* EditTable Cells */
+#person-page tr td input {
+  @apply border border-skyblue-600 rounded p-2.5 text-sm;
+}
+#person-page tr td input:focus {
+  @apply outline-none border border-skyblue-600 rounded;
+}
+
+.selected-cell {
+  @apply bg-blue-200 border border-blue-400 !important inline-block w-full;
+}
+
+.selected-cell-others {
+  @apply bg-blue-200 border border-blue-400 !important;
+}
+
+.MuiPaper-elevation8 {
+  -moz-box-shadow: 0px 4px 24px -4px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0px 4px 24px -4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 24px -4px rgba(0, 0, 0, 0.15);
+}
+
+/* All Life Events */
+#lifeEvents {
+  @apply pb-20 table max-w-full w-auto;
+}
+
+#lifeEvents tr td:nth-child(1) div {
+  @apply truncate;
+}
+
+#lifeEvents tr th:nth-child(3) input {
+  @apply w-48;
+}
+#lifeEvents tr th:nth-child(2) div,
+#lifeEvents tr td:nth-child(2) div {
+  @apply truncate;
+}
+
+#lifeEvents tr th:nth-child(3) div .tooltip-content,
+#lifeEvents tr td:nth-child(3) div .tooltip-content {
+  @apply truncate;
+}
+
+#lifeEvents tr th:nth-child(4) div,
+#lifeEvents tr td:nth-child(4) div {
+  @apply truncate;
+}
+#lifeEvents tr td:nth-child(4) .MuiInputBase-root {
+  @apply bg-white;
+}
+#lifeEvents tr td:nth-child(4) .MuiOutlinedInput-root:focus {
+  @apply border-blue-700;
+}
+/* table width */
+#lifeEvents th:first-child {
+  @apply text-gray-400;
+}
+#lifeEvents tr th:nth-child(1),
+#lifeEvents tr td:nth-child(1) {
+  @apply w-12 max-w-12 min-w-12 px-1 text-center;
+}
+#lifeEvents tr th:nth-child(2),
+#lifeEvents tr td:nth-child(2) {
+  @apply w-42.5 max-w-42.5 min-w-42.5;
+}
+#lifeEvents tr th:nth-child(3),
+#lifeEvents tr td:nth-child(3) {
+  @apply w-30 max-w-30 min-w-30;
+}
+#lifeEvents tr th:nth-child(4),
+#lifeEvents tr td:nth-child(4) {
+  @apply w-70 max-w-70 min-w-70;
+}
+
+#lifeEvents tr th:nth-child(4) input,
+#lifeEvents tr td:nth-child(4) input {
+  @apply w-70 max-w-70 min-w-70 h-full bg-white;
+}
+
+#lifeEvents tr th:nth-child(5),
+#lifeEvents tr td:nth-child(5) {
+  @apply min-w-120;
+}
+
+#person-page tr td .fullname-box {
+  @apply relative w-full overflow-visible h-full !important;
+}
+#person-page tr td .fullname-control {
+  @apply shadow-1x rounded absolute -left-0.5 -ml-px -right-11 -mr-px bg-white -mt-px !important;
+}
+#person-page tr td .fullname-control input {
+  @apply outline-none border border-skyblue-600 rounded w-1/2 truncate;
+}
+#person-page tr td .fullname-control input:first-child {
+  @apply rounded-r-none border-r-0;
+  width: 56%;
+}
+#person-page tr td .fullname-control input:last-child {
+  @apply rounded-l-none;
+  width: 44%;
+}
+
+.table-main th,
+.table-main td {
+  @apply border-l;
+}
+
+.table-main tr th:last-of-type,
+.table-main tr td:last-of-type {
+  @apply border-r;
+}
+.table-main th,
+.table-main td,
+.selected-cell,
+.selected-cell-others {
+  @apply h-10 max-h-10 !important;
+}
+
+#person-page tr td .edit-cell {
+  @apply border border-skyblue-600 rounded p-2 text-sm h-10;
+}
+#person-page tr td .edit-cell .MuiSelect-select.MuiSelect-select {
+  @apply pt-0 pb-0 ml-0 !important;
+}
+#menu-gender .MuiMenu-paper {
+  @apply -ml-4;
+}
+
+/* table using div */
+.allevent-table-responsive {
+  @apply w-full overflow-x-auto py-2 px-4 pl-4 xl:px-1;
+}
+.allevent-table {
+  @apply flex flex-col w-274.5;
+}
+.allevent-table .allevent-row {
+  @apply flex;
+}
+.allevent-table .allevent-row .allevent-cell {
+  @apply flex items-center border-l border-t border-gray-200 bg-white text-gray-500 p-2 relative h-10;
+}
+.allevent-table .allevent-row .allevent-cell:last-child {
+  @apply border-r;
+}
+.allevent-table .allevent-row:first-of-type .allevent-cell:first-of-type {
+  @apply rounded-tl-md;
+}
+.allevent-table .allevent-row:first-of-type .allevent-cell:last-of-type {
+  @apply rounded-tr-md;
+}
+.allevent-table .allevent-row:last-of-type .allevent-cell:first-of-type {
+  @apply rounded-bl-md;
+}
+.allevent-table .allevent-row:last-of-type .allevent-cell:last-of-type {
+  @apply rounded-br-md;
+}
+
+.allevent-table .allevent-row .allevent-cell.all-age,
+.allevent-table .allevent-row .allevent-cell:nth-child(1) {
+  @apply w-12;
+}
+.allevent-table .allevent-row .allevent-cell.all-event,
+.allevent-table .allevent-row .allevent-cell:nth-child(2) {
+  @apply w-42.5;
+}
+.allevent-table .allevent-row .allevent-cell.all-date,
+.allevent-table .allevent-row .allevent-cell:nth-child(3) {
+  @apply w-30;
+}
+.allevent-table .allevent-row .allevent-cell.all-location,
+.allevent-table .allevent-row .allevent-cell:nth-child(4) {
+  @apply w-70;
+}
+.allevent-table .allevent-row .allevent-cell.all-description,
+.allevent-table .allevent-row .allevent-cell:nth-child(5) {
+  @apply w-120;
+}
+
+.allevent-table .allevent-box {
+  @apply absolute left-0 top-0 w-full overflow-visible h-full z-10;
+}
+.allevent-table .allevent-control {
+  @apply shadow-1x rounded absolute -left-0.75 -ml-px -right-0.5 -mr-px -top-0.5 -bottom-0.5 bg-white -mt-px;
+}
+.allevent-table .allevent-control > .w-full.shadow-1x {
+  @apply shadow-none h-11;
+}
+.allevent-table .allevent-control > .w-full.shadow-1x .MuiFormControl-fullWidth {
+  @apply shadow-none h-11;
+}
+.allevent-table .allevent-control .MuiFormControl-fullWidth .makeStyles-inputRoot-451,
+.allevent-table .allevent-control .MuiFormControl-fullWidth .MuiOutlinedInput-notchedOutline {
+  @apply h-11 top-0;
+}
+.allevent-table .allevent-control .MuiAutocomplete-hasPopupIcon .MuiAutocomplete-inputRoot,
+.allevent-table .allevent-control.MuiAutocomplete-hasClearIcon .MuiAutocomplete-inputRoot {
+  @apply h-11;
+}
+.allevent-table .allevent-control .MuiAutocomplete-hasClearIcon .MuiAutocomplete-inputRoot {
+  @apply h-11;
+}
+.allevent-table .allevent-control .PrivateNotchedOutline-root-495,
+.allevent-table .allevent-control legend {
+  /* @apply top-0 h-11; */
+  line-height: 0;
+}
+.allevent-table .allevent-control input {
+  @apply outline-none border border-skyblue-600 rounded w-full truncate h-11 p-2 text-gray-700 text-sm;
+}
+.allevent-cell-text {
+  @apply truncate text-sm text-gray-700;
+}

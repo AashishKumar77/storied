@@ -1,0 +1,129 @@
+.person-detail-page {
+  @apply mt-12 md:mt-16 w-full lg:w-360 xl:w-full min-h-full;
+  min-height: calc(100% - 4rem);
+}
+
+.person-detail-page .main-wrapper {
+  @apply px-3 md:px-6;
+}
+
+.nav-section {
+  @apply flex justify-between items-center py-2.5 w-full lg:w-7/12 shadow lg:shadow-none bg-white lg:bg-transparent 
+    absolute lg:relative top-20 lg:top-0 left-0 px-2 lg:px-0;
+}
+
+.tab-section .btn,
+.nav-section .btn {
+  @apply text-xs sm:text-sm px-2.5 sm:px-3;
+}
+
+.person-main-content {
+  @apply mt-2 w-360 lg:w-full;
+}
+
+.main-header {
+  @apply fixed w-full z-10;
+}
+
+.fixed-header .upload-img {
+  @apply h-16 w-16;
+}
+
+.fixed-header .addPhoto-txt {
+  @apply hidden;
+}
+
+.fixed-header .icon-large svg {
+  @apply w-3/5 mx-auto;
+}
+
+.fixed-header {
+  @apply fixed left-0 invisible z-40 w-full;
+}
+
+.tabActive {
+  @apply bg-gray-700 text-white !important;
+}
+
+.header-grey-bg {
+  @apply bg-gray-200 w-full;
+}
+
+.person-page-header {
+  @apply pt-3 pb-2 lg:pt-7 sm:pt-4 lg:pb-3 flex;
+}
+
+.profile-details {
+  @apply relative pl-6;
+}
+
+.person-img {
+  @apply w-16 sm:w-24 md:w-32 lg:w-52 rounded-2xl absolute;
+}
+
+.fixed-header .person-img {
+  @apply w-16 rounded-lg relative;
+}
+
+.fixed-header .profile-details {
+  @apply flex;
+}
+
+.person-name {
+  @apply text-base md:text-xl mt-20 sm:mt-0 sm:ml-28 md:ml-36 lg:ml-60 inline-block;
+}
+
+.fixed-header .person-name {
+  @apply ml-3 mt-0;
+}
+
+.person-title span {
+  @apply line-clamp-2 leading-tight break-words;
+}
+
+.birth-info span,
+.death-info span {
+  @apply line-clamp-2 break-all;
+}
+
+.details {
+  @apply relative w-full px-2 lg:px-8 md:px-6 sm:px-4;
+}
+
+.tab-section {
+  @apply md:pl-0 lg:ml-56 flex justify-between items-center py-2.5 relative border-b-2;
+  z-index: 8;
+}
+
+.navLink {
+  @apply text-sm md:text-base font-medium text-gray-600 hover:bg-gray-700 hover:text-white px-2 py-1 
+    focus:outline-none focus:text-white rounded-lg;
+}
+
+.tab-section nav {
+  @apply space-x-1 md:space-x-4;
+}
+
+.menu-button {
+  @apply hidden md:block;
+}
+
+.icon-button {
+  @apply block md:hidden pt-1.5;
+}
+
+/* Scroll Handling */
+.person-page-scroll {
+  animation: fadeInAnimation ease 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

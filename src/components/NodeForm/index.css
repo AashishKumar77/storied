@@ -1,0 +1,74 @@
+.form-main-large {
+    padding: 8px 8px 12px;
+    background: #FFFFFF;
+    border: 2px solid #295DA1;
+    box-sizing: border-box;
+    box-shadow: 0px 1.98462px 3.96925px rgba(0, 0, 0, 0.15), inset 0px 0px 1.98462px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+}
+
+.form-main-small {
+    padding: 8px 8px 12px;
+    background: #FFFFFF;
+    border: 2px solid #295DA1;
+    box-sizing: border-box;
+    box-shadow: 0px 1.98462px 3.96925px rgba(0, 0, 0, 0.15), inset 0px 0px 1.98462px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+}
+
+.form-main-large, .form-main-small {
+    position: absolute;
+    z-index: 99999;
+    width: 204px;
+}
+
+.form-main-large input, .form-main-small input {
+    border: 1px solid transparent;
+    margin-bottom: 0.125rem;
+    padding: 0.125rem 0.5rem;  
+    border-radius: 0.250rem;
+    height:100%
+}
+
+.form-main-large:focus, .form-main-small:focus {
+    @apply text-gray-700 bg-gray-200 border border-gray-300;
+}
+
+.form-main-large .input-medium, .form-main-small .input-medium {
+    width: 100%;
+    font-size: 0.875rem;
+}
+
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #212122;
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.error-display {
+    @apply bg-maroon-500 rounded border-maroon-500 text-white text-vs px-2 py-2 inline-block w-full;
+  }
+
+  .node-input {
+      @apply  relative;
+  }
+  .node-input .icon {
+      @apply inline-block absolute top-2 right-2 cursor-default align-middle;
+  }
+/* Chrome only: */
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) { 
+    .node-input .icon  { top :0.8rem; }
+  }
+
+  .input-text.nodeform-error {
+    @apply text-maroon-400 !important ;
+}

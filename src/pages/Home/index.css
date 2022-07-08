@@ -1,0 +1,415 @@
+.content-loader-wrap .MuiSkeleton-root {
+  @apply ml-0;
+}
+
+.link-inline {
+  display: inline-block !important;
+}
+.homepage {
+  @apply bg-gray-200;
+}
+.inside-span-block span,
+.info-sp-block span {
+  @apply block;
+}
+
+.p-card-list-items p span {
+  display: block;
+}
+
+.avatar-top .card-avatar {
+  min-width: 2.5rem;
+}
+.avatar-top .defaultText {
+  word-break: break-word;
+}
+
+/* Recent People Card */
+
+.recent-ppl-search .input-text {
+  @apply text-sm;
+  height: 2rem !important;
+  padding-left: 2rem !important;
+}
+
+.story-prsns-list .media,
+.recent-ppl-list .media {
+  min-width: 2rem;
+}
+.story-prsns-list .title,
+.recent-user-info .title {
+  @apply overflow-hidden relative;
+  word-break: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  top: -1px;
+}
+.story-prsns-list .title span,
+.recent-user-info .title span {
+  @apply block;
+}
+.card-date-rel,
+.story-prsns-list .date-tree,
+.recent-user-info .date-tree {
+  @apply overflow-hidden relative -top-1;
+  word-break: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  line-height: 0.5;
+  padding-top: 6px;
+  min-height: 20px;
+}
+.story-author-info .card-date-rel span {
+  @apply inline;
+}
+.recent-user-info .date-tree span.date {
+  @apply inline-flex items-center;
+}
+.recent-user-info .date-tree span.date:after {
+  content: "•";
+  @apply relative text-gray-500 text-xs -right-1 -mt-0.5 leading-none;
+}
+
+.card-date-rel .date,
+.story-prsns-list .date-tree .date,
+.recent-user-info .date-tree .date {
+  max-width: 100px;
+}
+
+/*================ */
+
+.two-lines-ellipsis {
+  @apply overflow-hidden;
+  word-break: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/* Middle Section */
+
+.tell-story-button .btn {
+  @apply rounded-full border border-gray-300 w-full text-sm text-gray-500;
+  font-family: "Atlas Grotesk Web Medium", sans-serif !important;
+}
+.tell-story-button .btn:hover {
+  @apply text-gray-700;
+}
+
+.homepage .middle-cards-section {
+  max-width: 720px;
+}
+
+.homepage .home-no-tree-card .rightImg {
+  background-color: #a3d1c0;
+}
+
+/* Story card */
+.story-author-info h3 span,
+.story-author-info p span {
+  @apply block;
+}
+.story-author-info .card-avatar {
+  min-width: 2.5rem;
+}
+.story-author-info h3 {
+  word-break: break-word;
+}
+.story-media:not(.sth-two-images) .sth-image {
+@apply w-full
+}
+
+.story-media:not(.sth-two-images) .sth-image img {
+  max-height: 640px
+}
+
+.story-media.sth-two-images .sth-image {
+@apply w-1/2 overflow-hidden;
+min-height: 319px;
+max-height: 319px; 
+}
+
+.story-media.sth-two-images .sth-image img { 
+  @apply w-full h-full;
+  max-width: 319px;  
+  max-height: 319px;
+}
+
+.story-detail-container .title,
+.story-detail-container .location-date {
+  @apply overflow-hidden;
+  word-break: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.story-detail-container .location-date span.date {
+  @apply relative inline-block pr-1;
+}
+.story-detail-container .location-date span.location {
+  @apply relative inline-block pl-2;
+}
+.story-detail-container .location-date span.location:before {
+  content: "•";
+  @apply absolute text-gray-500 text-xs left-0 top-0;
+}
+
+.story-detail-container .description p span {
+  @apply overflow-hidden;
+  word-break: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.story-likes-container {
+  @apply mb-4 pb-4;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.story-action-buttons button:hover .defaultText.default-color {
+  @apply text-gray-600;
+}
+
+.story-action-buttons .liked-btn {
+  color: #fc4040;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.25, 1.25, 1.25);
+    transform: scale3d(1.25, 1.25, 1.25);
+  }
+
+  to {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.25, 1.25, 1.25);
+    transform: scale3d(1.25, 1.25, 1.25);
+  }
+
+  to {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+
+.animate__pulse {
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+}
+
+/* Right sidebar */
+
+.sidebar.sb-right {
+  @apply hidden;
+}
+.top-sticky {
+  position: sticky;
+  top: 80px;
+}
+.sticky-sidebar {
+  position: fixed;
+}
+
+.tell-story-btn .btn,
+.tell-story-btn .btn div.flex {
+  @apply w-full;
+}
+
+@media (min-width: 512px) {
+  .homepage .card {
+    @apply rounded-xl shadow mb-4;
+  }
+}
+
+@media (min-width: 760px) {
+  .homepage .middle-cards-section {
+    @apply pl-6;
+  }
+}
+
+@media (min-width: 1024px) {
+  .homepage .sidebar {
+    min-width: 299px;
+  }
+  .homepage .hm-sidebar-in,
+  .homepage .sidebar .bg-white.card.fixed {
+    min-width: 299px;
+    max-width: 299px;
+  }
+}
+
+@media (min-width: 1201px) {
+  .homepage .sidebar {
+    min-width: 282px;
+    max-width: 282px;
+  }
+
+  .homepage .hm-sidebar-in,
+  .homepage .sidebar .bg-white.card.fixed {
+    min-width: 282px;
+    max-width: 282px;
+  }
+
+  .homepage .middle-cards-section {
+    @apply px-6;
+  }
+  .sidebar.sb-right {
+    @apply flex flex-col;
+  }
+}
+
+@media (min-width: 1280px) {
+  .homepage .sidebar {
+    min-width: 320px;
+    max-width: 320px;
+  }
+  .homepage .hm-sidebar-in,
+  .homepage .sidebar .bg-white.card.fixed {
+    min-width: 320px;
+    max-width: 320px;
+  }
+
+  .homepage .middle-cards-section {
+    @apply px-10;
+  }
+}
+
+@media (min-width: 1409px) {
+  .homepage .main-wrapper {
+    min-width: 1408px;
+    max-width: 1408px;
+  }
+}
+@media (max-width: 1200px) {
+  .homepage .main-wrapper {
+    max-width: 1010px;
+  }
+}
+@media (max-width: 1023px) {
+  .homepage .main-wrapper {
+    max-width: 990px;
+  }
+  .homepage .sidebar {
+    width: 30%;
+  }
+  .homepage .hm-sidebar-in.sticky-sidebar {
+    width: 28.3%;
+  }
+  .homepage .sidebar .bg-white.card.fixed {
+    width: 26.7%;
+  }
+  .homepage .middle-cards-section {
+    width: 70%;
+  }
+}
+
+@media (max-width: 759px) {
+  .homepage .main-wrapper {
+    @apply px-5;
+  }
+  .homepage .sidebar {
+    @apply pr-3;
+    width: 50%;
+  }
+  .homepage .hm-sidebar-in.sticky-sidebar {
+    width: 44.8%;
+  }
+  .homepage .sidebar .bg-white.card.fixed {
+    width: 45.7%;
+  }
+  .homepage .home-no-tree-card .btn-stepper {
+    width: 100% !important;
+  }
+  .homepage .home-no-tree-card .rightImg {
+    display: none !important;
+  }
+  .homepage .middle-cards-section {
+    @apply pl-3;
+    width: 50%;
+  }
+  .middle-cards-section .story-media img {
+    width: auto !important;
+    height: auto !important;
+  }
+}
+@media (max-width: 511px) {
+  .homepage {
+    @apply mt-0.5;
+  }
+  .homepage .main-wrapper {
+    @apply px-0 pt-14;
+  }
+  .homepage .card {
+    @apply mb-2;
+  }
+  .homepage #profile-card.card {
+    @apply pt-3;
+  }
+  .homepage .sidebar {
+    @apply pr-0 w-full;
+  }
+  .homepage .hm-sidebar-in,
+  .homepage .hm-sidebar-in.sticky-sidebar {
+    @apply w-full;
+  }
+  .sticky-sidebar {
+    position: relative;
+  }
+  .homepage .middle-cards-section {
+    @apply pl-0;
+    width: 100%;
+  }
+
+  .home-sections-wrap {
+    @apply flex-col;
+  }
+}
+/* .loading-rel-media {   
+    width: 36px;
+    min-width: 36px;
+    height: 36px;              
+  }
+  .loading-rel-media .MuiSkeleton-root {
+      margin-left: 0;
+  } */
+
+/* .likes-persons-container {
+    height: 300px;
+    overflow-y: scroll;
+  } */
+.card-padding {
+  padding: 0 !important;
+}
+.card-mb-0 {
+  margin-bottom: 0 !important;
+}
+@media (max-width: 1023px) {
+  .card-padding {
+    width: 100% !important;
+  }
+}

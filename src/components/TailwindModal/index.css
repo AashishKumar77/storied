@@ -1,0 +1,32 @@
+.tw-modal-open {
+  @apply overflow-hidden
+}
+
+.tw-modal-dialog {  
+  min-height: calc(100% - (1.5rem * 2));
+  }
+  .tw-modal-dialog input {
+@apply text-base
+  }
+  
+.modal-xs {
+  @apply max-w-sm
+}
+
+.modal-md {
+  max-width: 650px;
+}
+
+@media (max-width:767px) {
+  .modal-md {
+    @apply px-4
+  }
+}
+
+@media (min-width:1025px) {  
+  .modal-body-pr-17,
+  .tw-modal-open.pr-17 {
+    padding-right: 17px
+  }
+  
+}
